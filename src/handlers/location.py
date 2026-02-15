@@ -31,10 +31,19 @@ def _areas_keyboard(context: AppContext, region_id: int, region_name: str) -> In
 def build_location_router(context: AppContext, monitoring_service: MonitoringService) -> Router:
     router = Router(name="location")
 
-    @router.message(Command("set_location"))
-    async def cmd_set_location(message: Message, state: FSMContext) -> None:
+    async def _open_location_menu(message: Message, state: FSMContext) -> None:
         await message.answer("🌍 Выберите регион поиска:", reply_markup=_regions_keyboard(context))
         await state.set_state(LocationStates.waiting_for_region)
+
+    @router.message(Command("set_location"))
+    async def cmd_set_location(message: Message, state: FSMContext) -> None:
+        await _open_location_menu(message, state)
+
+    @router.callback_query(F.data == "menu_set_location")
+    async def menu_set_location(callback: CallbackQuery, state: FSMContext) -> None:
+        await callback.message.answer("🌍 Выберите регион поиска:", reply_markup=_regions_keyboard(context))
+        await state.set_state(LocationStates.waiting_for_region)
+        await callback.answer()
 
     @router.callback_query(StateFilter(LocationStates.waiting_for_region), F.data.startswith("setrgn_"))
     async def process_region_choice(callback: CallbackQuery, state: FSMContext) -> None:
@@ -44,9 +53,12 @@ def build_location_router(context: AppContext, monitoring_service: MonitoringSer
             context.search_config.set_countrywide()
             await state.clear()
             await callback.message.edit_text("⏳ Обновляю настройки (Вся Беларусь)...")
-            await monitoring_service.update_seen_ads_baseline()
+            total = await monitoring_service.update_all_baselines()
             await callback.message.edit_text(
-                "✅ Регион: <b>Вся Беларусь</b>.\nСтарые объявления пропущены, жду новые...",
+                (
+                    "✅ Регион: <b>Вся Беларусь</b>.\n"
+                    f"Старые объявления пропущены ({total}), жду новые..."
+                ),
                 parse_mode=ParseMode.HTML,
             )
             await callback.answer()
@@ -84,12 +96,12 @@ def build_location_router(context: AppContext, monitoring_service: MonitoringSer
 
         await state.clear()
         await callback.message.edit_text("⏳ Применяю настройки локации...")
-        await monitoring_service.update_seen_ads_baseline()
+        total = await monitoring_service.update_all_baselines()
         await callback.message.edit_text(
             (
                 "✅ Настройки обновлены:\n"
                 f"<b>{context.search_config.location_label}</b>\n\n"
-                "Старые объявления пропущены, мониторинг запущен."
+                f"Старые объявления пропущены ({total}), мониторинг запущен."
             ),
             parse_mode=ParseMode.HTML,
         )
@@ -108,4 +120,3 @@ def build_location_router(context: AppContext, monitoring_service: MonitoringSer
         await callback.answer()
 
     return router
-

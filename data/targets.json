@@ -1,0 +1,10 @@
+{
+  "targets": [
+    {
+      "name": "iPhone (по умолчанию)",
+      "category_id": 17010,
+      "extra_params": {},
+      "enabled": true
+    }
+  ]
+}

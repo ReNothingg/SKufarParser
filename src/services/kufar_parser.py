@@ -1,18 +1,23 @@
 import json
 import logging
 from typing import Any
+from urllib.parse import urlencode
 
 import aiohttp
 from bs4 import BeautifulSoup
 
 from src.models.search_config import SearchConfig
+from src.models.search_target import SearchTarget
 
-
-PLACEHOLDER_IMAGE = "https://via.placeholder.com/800x600.png?text=Нет+фото"
-BASE_SEARCH_URL = (
-    "https://api.kufar.by/search-api/v2/search/rendered-paginated"
-    "?cat=17010&lang=ru&pb=5&prn=17000&size=50&sort=lst.d"
-)
+PLACEHOLDER_IMAGE = "https://placehold.co/800x600/png?text=Нет+фото"
+BASE_SEARCH_URL = "https://api.kufar.by/search-api/v2/search/rendered-paginated"
+DEFAULT_SEARCH_PARAMS = {
+    "lang": "ru",
+    "pb": "5",
+    "prn": "17000",
+    "size": "50",
+    "sort": "lst.d",
+}
 
 
 class KufarParser:
@@ -29,17 +34,25 @@ class KufarParser:
         if self._session and not self._session.closed:
             await self._session.close()
 
-    def build_url(self, config: SearchConfig) -> str:
-        url = BASE_SEARCH_URL
-        if config.rgn:
-            url += f"&rgn={config.rgn}"
-        if config.ar:
-            url += f"&ar={config.ar}"
-        return url
+    def build_url(self, config: SearchConfig, target: SearchTarget) -> str:
+        params: dict[str, str] = {
+            **DEFAULT_SEARCH_PARAMS,
+            "cat": str(target.category_id),
+        }
+        params.update(target.extra_params)
+        params.pop("rgn", None)
+        params.pop("ar", None)
 
-    async def fetch_search_results(self, config: SearchConfig) -> list[dict[str, Any]]:
+        if config.rgn is not None:
+            params["rgn"] = str(config.rgn)
+        if config.ar is not None:
+            params["ar"] = str(config.ar)
+
+        return f"{BASE_SEARCH_URL}?{urlencode(params)}"
+
+    async def fetch_search_results(self, config: SearchConfig, target: SearchTarget) -> list[dict[str, Any]]:
         session = await self._get_session()
-        url = self.build_url(config)
+        url = self.build_url(config, target)
         try:
             async with session.get(url) as response:
                 if response.status != 200:
@@ -153,4 +166,3 @@ class KufarParser:
             f"📝 <i>{description}</i>\n\n"
             f"📍 {ad_data.get('region', 'Беларусь')}\n"
         )
-

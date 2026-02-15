@@ -9,13 +9,13 @@ DEFAULT_USER_AGENT = (
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 )
 
-
 @dataclass(frozen=True)
 class AppConfig:
     bot_token: str
     user_id: int
     check_interval: int
     locations_file: str
+    targets_file: str
     kufar_auth_token: str | None
     user_agent: str
 
@@ -48,7 +48,8 @@ def load_config() -> AppConfig:
     except ValueError as error:
         raise ValueError("CHECK_INTERVAL должен быть числом.") from error
 
-    locations_file = os.getenv("LOCATIONS_FILE", "locations.json").strip() or "locations.json"
+    locations_file = os.getenv("LOCATIONS_FILE", "data/locations.json").strip() or "data/locations.json"
+    targets_file = os.getenv("TARGETS_FILE", "data/targets.json").strip() or "data/targets.json"
     kufar_auth_token = os.getenv("KUFAR_AUTH_TOKEN", "").strip() or None
     user_agent = os.getenv("KUFAR_USER_AGENT", DEFAULT_USER_AGENT).strip() or DEFAULT_USER_AGENT
 
@@ -57,7 +58,7 @@ def load_config() -> AppConfig:
         user_id=user_id,
         check_interval=check_interval,
         locations_file=locations_file,
+        targets_file=targets_file,
         kufar_auth_token=kufar_auth_token,
         user_agent=user_agent,
     )
-
