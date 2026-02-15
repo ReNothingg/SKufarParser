@@ -1,0 +1,3618 @@
+[
+	{
+	  "id": "1",
+	  "pid": "0",
+	  "labels": {
+		"ru": "Беларусь",
+		"ru_pred": "Беларуси",
+		"by": "Беларусь",
+		"by_pred": "Беларусі"
+	  },
+	  "type": "country",
+	  "tag": "country-belarus",
+	  "bbox": [
+		23.178331,
+		51.262035,
+		32.776533,
+		56.171728
+	  ]
+	},
+	{
+	  "id": "2",
+	  "pid": "1",
+	  "labels": {
+		"ru": "Минская область",
+		"ru_pred": "Минской области",
+		"by": "Мінская вобласць",
+		"by_pred": "Мінскай вобласці"
+	  },
+	  "type": "area",
+	  "region": 5,
+	  "tag": "country-belarus~province-minskaja_oblast",
+	  "bbox": [
+		26.002895,
+		52.3899,
+		29.492966,
+		55.022293
+	  ]
+	},
+	{
+	  "id": "3",
+	  "pid": "1",
+	  "labels": {
+		"ru": "Брестская область",
+		"ru_pred": "Брестской области",
+		"by": "Брэсцкая вобласць",
+		"by_pred": "Брэсцкай вобласці"
+	  },
+	  "type": "area",
+	  "region": 1,
+	  "tag": "country-belarus~province-brestskaja_oblast",
+	  "bbox": [
+		23.178331,
+		51.499015,
+		27.616134,
+		53.407904
+	  ]
+	},
+	{
+	  "id": "4",
+	  "pid": "1",
+	  "labels": {
+		"ru": "Витебская область",
+		"ru_pred": "Витебской области",
+		"by": "Віцебская вобласць",
+		"by_pred": "Віцескай вобласці"
+	  },
+	  "type": "area",
+	  "region": 6,
+	  "tag": "country-belarus~province-vitebskaja_oblast",
+	  "bbox": [
+		26.208627,
+		54.23449,
+		31.210914,
+		56.171728
+	  ]
+	},
+	{
+	  "id": "5",
+	  "pid": "1",
+	  "labels": {
+		"ru": "Гомельская область",
+		"ru_pred": "Гомельской области",
+		"by": "Гомельская вобласць",
+		"by_pred": "Гомельскай вобласці"
+	  },
+	  "type": "area",
+	  "region": 2,
+	  "tag": "country-belarus~province-gomelskaja_oblast",
+	  "bbox": [
+		27.250107,
+		51.262035,
+		31.799328,
+		53.354992
+	  ]
+	},
+	{
+	  "id": "6",
+	  "pid": "1",
+	  "labels": {
+		"ru": "Гродненская область",
+		"ru_pred": "Гродненской области",
+		"by": "Гродзенская вобласць",
+		"by_pred": "Гродненскай вобласці"
+	  },
+	  "type": "area",
+	  "region": 3,
+	  "tag": "country-belarus~province-grodnenskaja_oblast",
+	  "bbox": [
+		23.51157,
+		52.744084,
+		26.7012,
+		54.998086
+	  ]
+	},
+	{
+	  "id": "7",
+	  "pid": "1",
+	  "labels": {
+		"ru": "Могилёвская область",
+		"ru_pred": "Могилёвской области",
+		"by": "Магілёўская вобласць",
+		"by_pred": "Магілёўскай вобласці"
+	  },
+	  "type": "area",
+	  "region": 4,
+	  "tag": "country-belarus~province-mogilyovskaja_oblast",
+	  "bbox": [
+		28.081677,
+		52.674618,
+		32.776533,
+		54.471383
+	  ]
+	},
+	{
+	  "id": "240",
+	  "pid": "2",
+	  "labels": {
+		"ru": "Минск",
+		"ru_pred": "Минске",
+		"by": "Мінск",
+		"by_pred": "Мінску"
+	  },
+	  "type": "city",
+	  "region": 7,
+	  "tag": "country-belarus~province-minsk~locality-minsk",
+	  "bbox": [27.374416,53.79388,28.080581,53.97162]
+	},
+	{
+	  "id": "201",
+	  "pid": "2",
+	  "labels": {
+		"ru": "Минский район",
+		"ru_pred": "Минском районе",
+		"by": "Мінскі раён",
+		"by_pred": "Мінскім раёне"
+	  },
+	  "type": "region",
+	  "region": "5",
+	  "area": "142",
+	  "tag": "country-belarus~province-minskaja_oblast~area-minskij_rajon",
+	  "bbox": [
+		27.016868,
+		53.628048,
+		27.961815,
+		54.255955
+	  ]
+	},
+	{
+	  "id": "332",
+	  "pid": "3",
+	  "labels": {
+		"ru": "Брест",
+		"ru_pred": "Бресте",
+		"by": "Брэст",
+		"by_pred": "Брэсце"
+	  },
+	  "type": "city",
+	  "region": 1,
+	  "area": 1,
+	  "tag": "country-belarus~province-brestskaja_oblast~locality-brest",
+	  "bbox": [
+		23.566017,
+		52.023911,
+		23.852669,
+		52.151636
+	  ]
+	},
+	{
+	  "id": "301",
+	  "pid": "3",
+	  "labels": {
+		"ru": "Брестский район",
+		"ru_pred": "Брестском районе",
+		"by": "Брэсцкі раён",
+		"by_pred": "Брэсцкім раёне"
+	  },
+	  "type": "region",
+	  "region": "1",
+	  "area": "150",
+	  "tag": "country-belarus~province-brestskaja_oblast~area-brestskij_rajon",
+	  "bbox": [
+		23.37685,
+		51.499015,
+		24.110585,
+		52.333992
+	  ]
+	},
+	{
+	  "id": "433",
+	  "pid": "4",
+	  "labels": {
+		"ru": "Витебск",
+		"ru_pred": "Витебске",
+		"by": "Віцебск",
+		"by_pred": "Віцебску"
+	  },
+	  "type": "city",
+	  "region": 6,
+	  "area": 18,
+	  "tag": "country-belarus~province-vitebskaja_oblast~area-vitebsk~locality-vitebsk",
+	  "bbox": [
+		30.076889,
+		55.129767,
+		30.322031,
+		55.314915
+	  ]
+	},
+	{
+	  "id": "401",
+	  "pid": "4",
+	  "labels": {
+		"ru": "Витебский район",
+		"ru_pred": "Витебском районе",
+		"by": "Віцебскі раён",
+		"by_pred": "Віцебскім раёне"
+	  },
+	  "type": "region",
+	  "region": "6",
+	  "area": "151",
+	  "tag": "country-belarus~province-vitebskaja_oblast~area-vitebskij_rajon",
+	  "bbox": [
+		29.798555,
+		54.888232,
+		30.961137,
+		55.63163
+	  ]
+	},
+	{
+	  "id": "633",
+	  "pid": "6",
+	  "labels": {
+		"ru": "Гродно",
+		"ru_pred": "Гродно",
+		"by": "Гродна",
+		"by_pred": "Гродне"
+	  },
+	  "type": "city",
+	  "region": 3,
+	  "area": 9,
+	  "tag": "country-belarus~province-grodnenskaja_oblast~locality-grodno",
+	  "bbox": [
+		23.709406,
+		53.599048,
+		23.983922,
+		53.759868
+	  ]
+	},
+	{
+	  "id": "601",
+	  "pid": "6",
+	  "labels": {
+		"ru": "Гродненский район",
+		"ru_pred": "Гродненском районе",
+		"by": "Гродзенскі раён",
+		"by_pred": "Гродзенскім раёне"
+	  },
+	  "type": "region",
+	  "region": "3",
+	  "area": "153",
+	  "tag": "country-belarus~province-grodnenskaja_oblast~area-grodnenskij_rajon",
+	  "bbox": [
+		23.51157,
+		53.371419,
+		24.457226,
+		53.970121
+	  ]
+	},
+	{
+	  "id": "533",
+	  "pid": "5",
+	  "labels": {
+		"ru": "Гомель",
+		"ru_pred": "Гомеле",
+		"by": "Гомель",
+		"by_pred": "Гомелі"
+	  },
+	  "type": "city",
+	  "region": 2,
+	  "area": 5,
+	  "tag": "country-belarus~province-gomelskaja_oblast~locality-gomel",
+	  "bbox": [
+		30.748128,
+		52.343495,
+		31.171666,
+		52.570792
+	  ]
+	},
+	{
+	  "id": "501",
+	  "pid": "5",
+	  "labels": {
+		"ru": "Гомельский район",
+		"ru_pred": "Гомельском районе",
+		"by": "Гомельскі раён",
+		"by_pred": "Гомельскім раёне"
+	  },
+	  "type": "region",
+	  "region": "2",
+	  "area": "152",
+	  "tag": "country-belarus~province-gomelskaja_oblast~area-gomelskij_rajon",
+	  "bbox": [
+		30.521268,
+		52.041979,
+		31.388259,
+		52.585988
+	  ]
+	},
+	{
+	  "id": "743",
+	  "pid": "7",
+	  "labels": {
+		"ru": "Могилёв",
+		"ru_pred": "Могилёве",
+		"by": "Магілёў",
+		"by_pred": "Магілёве"
+	  },
+	  "type": "city",
+	  "region": 4,
+	  "area": 13,
+	  "tag": "country-belarus~province-mogilyovskaja_oblast~locality-mogilyov",
+	  "bbox": [
+		30.225776,
+		53.792587,
+		30.47452,
+		53.970232
+	  ]
+	},
+	{
+	  "id": "701",
+	  "pid": "7",
+	  "labels": {
+		"ru": "Могилевский район",
+		"ru_pred": "Могилёвском районе",
+		"by": "Магілёўскі раён",
+		"by_pred": "Магілёўскім раёне"
+	  },
+	  "type": "region",
+	  "region": "4",
+	  "area": "154",
+	  "tag": "country-belarus~province-mogilyovskaja_oblast~area-mogilyovskij_rajon",
+	  "bbox": [
+		29.762847,
+		53.620342,
+		30.817586,
+		54.076931
+	  ]
+	},
+	{
+	  "id": "230",
+	  "pid": "2",
+	  "labels": {
+		"ru": "Березино",
+		"ru_pred": "Березино",
+		"by": "Беразіно",
+		"by_pred": "Беразіно"
+	  },
+	  "type": "city",
+	  "region": 5,
+	  "area": 91,
+	  "tag": "country-belarus~province-minskaja_oblast~area-berezinskij_rajon~locality-berezino",
+	  "bbox": [
+		28.957876,
+		53.808201,
+		29.005073,
+		53.864618
+	  ]
+	},
+	{
+	  "id": "231",
+	  "pid": "2",
+	  "labels": {
+		"ru": "Борисов",
+		"ru_pred": "Борисове",
+		"by": "Барысаў",
+		"by_pred": "Барысаве"
+	  },
+	  "type": "city",
+	  "region": 5,
+	  "area": 15,
+	  "tag": "country-belarus~province-minskaja_oblast~area-borisovskij_rajon~locality-borisov",
+	  "bbox": [
+		28.449169,
+		54.162927,
+		28.580251,
+		54.283696
+	  ]
+	},
+	{
+	  "id": "272",
+	  "pid": "2",
+	  "labels": {
+		"ru": "Боровляны",
+		"ru_pred": "Боровлянах",
+		"by": "Бараўляны",
+		"by_pred": "Бараўлянах"
+	  },
+	  "type": "city",
+	  "region": 5,
+	  "area": 158,
+	  "tag": "country-belarus~province-minskaja_oblast~area-minskij_rajon~area-borovljanskij_selsovet~locality-derevnja_borovljany",
+	  "bbox": [
+		28.338137,
+		54.492097,
+		28.35605,
+		54.501467
+	  ]
+	},
+	{
+	  "id": "232",
+	  "pid": "2",
+	  "labels": {
+		"ru": "Вилейка",
+		"ru_pred": "Вилейке",
+		"by": "Вілейка",
+		"by_pred": "Вілейцы"
+	  },
+	  "type": "city",
+	  "region": 5,
+	  "area": 92,
+	  "tag": "country-belarus~province-minskaja_oblast~area-vilejskij_rajon~locality-vilejka",
+	  "bbox": [
+		26.856339,
+		54.464246,
+		26.976165,
+		54.52667
+	  ]
+	},
+	{
+	  "id": "233",
+	  "pid": "2",
+	  "labels": {
+		"ru": "Воложин",
+		"ru_pred": "Воложине",
+		"by": "Валожын",
+		"by_pred": "Валожыне"
+	  },
+	  "type": "city",
+	  "region": 5,
+	  "area": 93,
+	  "tag": "country-belarus~province-minskaja_oblast~area-volozhinskij_rajon~locality-volozhin",
+	  "bbox": [
+		26.489422,
+		54.064848,
+		26.570199,
+		54.10248
+	  ]
+	},
+	{
+	  "id": "255",
+	  "pid": "2",
+	  "labels": {
+		"ru": "Городея",
+		"ru_pred": "Городее",
+		"by": "Гарадзея",
+		"by_pred": "Гарадзеі"
+	  },
+	  "type": "urban_settlement",
+	  "region": 5,
+	  "area": 174,
+	  "tag": "country-belarus~province-minskaja_oblast~area-nesvizhskij_rajon~locality-gorodskoj_posyolok_gorodeja",
+	  "bbox": [
+		26.499636,
+		53.298,
+		26.565042,
+		53.328031
+	  ]
+	},
+	{
+	  "id": "234",
+	  "pid": "2",
+	  "labels": {
+		"ru": "Дзержинск",
+		"ru_pred": "Дзержинске",
+		"by": "Дзяржынск",
+		"by_pred": "Дзяржынску"
+	  },
+	  "type": "city",
+	  "region": 5,
+	  "area": 94,
+	  "tag": "country-belarus~province-minskaja_oblast~area-dzerzhinskij_rajon~locality-dzerzhinsk",
+	  "bbox": [
+		27.080918,
+		53.667304,
+		27.178502,
+		53.705911
+	  ]
+	},
+	{
+	  "id": "258",
+	  "pid": "2",
+	  "labels": {
+		"ru": "Ждановичи",
+		"ru_pred": "Ждановичах",
+		"by": "Ждановічы",
+		"by_pred": "Ждановічах"
+	  },
+	  "type": "working_village",
+	  "region": 5,
+	  "area": 182,
+	  "tag": "country-belarus~province-minskaja_oblast~area-minskij_rajon~area-zhdanovichskij_selsovet~locality-agrogorodok_zhdanovichi",
+	  "bbox": [
+		27.39072,
+		53.932066,
+		27.460519,
+		53.987643
+	  ]
+	},
+	{
+	  "id": "252",
+	  "pid": "2",
+	  "labels": {
+		"ru": "Жодино",
+		"ru_pred": "Жодино",
+		"by": "Жодзіна",
+		"by_pred": "Жодзіна"
+	  },
+	  "type": "city",
+	  "region": 5,
+	  "area": 44,
+	  "tag": "country-belarus~province-minskaja_oblast~locality-zhodino",
+	  "bbox": [
+		28.252591,
+		54.075975,
+		28.384095,
+		54.127956
+	  ]
+	},
+	{
+	  "id": "253",
+	  "pid": "2",
+	  "labels": {
+		"ru": "Заславль",
+		"ru_pred": "Заславле",
+		"by": "Заслаўе",
+		"by_pred": "Заслаўі"
+	  },
+	  "type": "city",
+	  "region": 5,
+	  "area": 143,
+	  "tag": "country-belarus~province-minskaja_oblast~area-minskij_rajon~locality-zaslavl",
+	  "bbox": [
+		27.228736,
+		53.981888,
+		27.343558,
+		54.037678
+	  ]
+	},
+	{
+	  "id": "256",
+	  "pid": "2",
+	  "labels": {
+		"ru": "Зелёный Бор",
+		"ru_pred": "Зеленом Бору",
+		"by": "Зялёны Бор",
+		"by_pred": "Зялёным Бару"
+	  },
+	  "type": "working_village",
+	  "region": 5,
+	  "area": 175,
+	  "tag": "country-belarus~province-minskaja_oblast~area-soligorskij_rajon~area-dolgovskij_selsovet~locality-derevnja_zelyonyj_bor",
+	  "bbox": [
+		27.614562,
+		52.651908,
+		27.636059,
+		52.660037
+	  ]
+	},
+	{
+	  "id": "257",
+	  "pid": "2",
+	  "labels": {
+		"ru": "Ивенец",
+		"ru_pred": "Ивенце",
+		"by": "Івянец",
+		"by_pred": "Івянцэ"
+	  },
+	  "type": "urban_settlement",
+	  "region": 5,
+	  "area": 176,
+	  "tag": "country-belarus~province-minskaja_oblast~area-volozhinskij_rajon~locality-gorodskoj_posyolok_ivenec",
+	  "bbox": [
+		26.708396,
+		53.873218,
+		26.758441,
+		53.904045
+	  ]
+	},
+	{
+	  "id": "235",
+	  "pid": "2",
+	  "labels": {
+		"ru": "Клецк",
+		"ru_pred": "Клецке",
+		"by": "Клецк",
+		"by_pred": "Клецку"
+	  },
+	  "type": "city",
+	  "region": 5,
+	  "area": 95,
+	  "tag": "country-belarus~province-minskaja_oblast~area-kleckij_rajon~locality-kleck",
+	  "bbox": [
+		26.613767,
+		53.049378,
+		26.668771,
+		53.084733
+	  ]
+	},
+	{
+	  "id": "236",
+	  "pid": "2",
+	  "labels": {
+		"ru": "Копыль",
+		"ru_pred": "Копыле",
+		"by": "Капыль",
+		"by_pred": "Капылі"
+	  },
+	  "type": "city",
+	  "region": 5,
+	  "area": 96,
+	  "tag": "country-belarus~province-minskaja_oblast~area-kopylskij_rajon~locality-kopyl",
+	  "bbox": [
+		27.064802,
+		53.132762,
+		27.122923,
+		53.178779
+	  ]
+	},
+	{
+	  "id": "237",
+	  "pid": "2",
+	  "labels": {
+		"ru": "Крупки",
+		"ru_pred": "Крупках",
+		"by": "Крупкі",
+		"by_pred": "Крупках"
+	  },
+	  "type": "city",
+	  "region": 5,
+	  "area": 97,
+	  "tag": "country-belarus~province-minskaja_oblast~area-krupskij_rajon~locality-krupki",
+	  "bbox": [
+		29.104158,
+		54.291196,
+		29.209602,
+		54.342597
+	  ]
+	},
+	{
+	  "id": "238",
+	  "pid": "2",
+	  "labels": {
+		"ru": "Логойск",
+		"ru_pred": "Логойске",
+		"by": "Лагойск",
+		"by_pred": "Лагойску"
+	  },
+	  "type": "city",
+	  "region": 5,
+	  "area": 98,
+	  "tag": "country-belarus~province-minskaja_oblast~area-logojskij_rajon~locality-logojsk",
+	  "bbox": [
+		27.825181,
+		54.180304,
+		27.884057,
+		54.230012
+	  ]
+	},
+	{
+	  "id": "239",
+	  "pid": "2",
+	  "labels": {
+		"ru": "Любань",
+		"ru_pred": "Любани",
+		"by": "Любань",
+		"by_pred": "Любані"
+	  },
+	  "type": "city",
+	  "region": 5,
+	  "area": 99,
+	  "tag": "country-belarus~province-minskaja_oblast~area-ljubanskij_rajon~locality-ljuban",
+	  "bbox": [
+		27.964429,
+		52.779096,
+		28.032899,
+		52.816813
+	  ]
+	},
+	{
+	  "id": "244",
+	  "pid": "2",
+	  "labels": {
+		"ru": "Марьина Горка",
+		"ru_pred": "Марьиной Горке",
+		"by": "Мар’іна Горка",
+		"by_pred": "Мар'інай Горцы"
+	  },
+	  "type": "city",
+	  "region": 5,
+	  "area": 122,
+	  "tag": "country-belarus~province-minskaja_oblast~area-puhovichskij_rajon~locality-marina_gorka",
+	  "bbox": [
+		28.104422,
+		53.48551,
+		28.18784,
+		53.530134
+	  ]
+	},
+	{
+	  "id": "260",
+	  "pid": "2",
+	  "labels": {
+		"ru": "Мачулищи",
+		"ru_pred": "Мачулищах",
+		"by": "Мачулішчы",
+		"by_pred": "Мачулішчах"
+	  },
+	  "type": "urban_settlement",
+	  "region": 5,
+	  "area": 180,
+	  "tag": "country-belarus~province-minskaja_oblast~area-minskij_rajon~locality-gorodskoj_posyolok_machulischi",
+	  "bbox": [
+		27.553135,
+		53.755519,
+		27.636894,
+		53.796294
+	  ]
+	},
+	{
+	  "id": "241",
+	  "pid": "2",
+	  "labels": {
+		"ru": "Молодечно",
+		"ru_pred": "Молодечно",
+		"by": "Маладзечна",
+		"by_pred": "Маладзечна"
+	  },
+	  "type": "city",
+	  "region": 5,
+	  "area": 16,
+	  "tag": "country-belarus~province-minskaja_oblast~area-molodechnenskij_rajon~locality-molodechno",
+	  "bbox": [
+		26.78866,
+		54.278619,
+		26.924656,
+		54.338665
+	  ]
+	},
+	{
+	  "id": "242",
+	  "pid": "2",
+	  "labels": {
+		"ru": "Мядель",
+		"ru_pred": "Мяделе",
+		"by": "Мядзел",
+		"by_pred": "Мядзелі"
+	  },
+	  "type": "city",
+	  "region": 5,
+	  "area": 100,
+	  "tag": "country-belarus~province-minskaja_oblast~area-mjadelskij_rajon~locality-mjadel",
+	  "bbox": [
+		26.898596,
+		54.861767,
+		26.973911,
+		54.894668
+	  ]
+	},
+	{
+	  "id": "243",
+	  "pid": "2",
+	  "labels": {
+		"ru": "Несвиж",
+		"ru_pred": "Несвиже",
+		"by": "Нясвіж",
+		"by_pred": "Нясвіжы"
+	  },
+	  "type": "city",
+	  "region": 5,
+	  "area": 101,
+	  "tag": "country-belarus~province-minskaja_oblast~area-nesvizhskij_rajon~locality-nesvizh",
+	  "bbox": [
+		26.637743,
+		53.20234,
+		26.709222,
+		53.23994
+	  ]
+	},
+	{
+	  "id": "262",
+	  "pid": "2",
+	  "labels": {
+		"ru": "Плещеницы",
+		"ru_pred": "Плещеницах",
+		"by": "Плешчаніцы",
+		"by_pred": "Плешчаніцах"
+	  },
+	  "type": "urban_settlement",
+	  "region": 5,
+	  "area": 156,
+	  "tag": "country-belarus~province-minskaja_oblast~area-logojskij_rajon~area-pleschenickij_selsovet~locality-gorodskoj_posyolok_pleschenicy",
+	  "bbox": [
+		27.792429,
+		54.410248,
+		27.890956,
+		54.440005
+	  ]
+	},
+	{
+	  "id": "264",
+	  "pid": "2",
+	  "labels": {
+		"ru": "Радошковичи",
+		"ru_pred": "Радошковичах",
+		"by": "Радашковічы",
+		"by_pred": "Радашковічах"
+	  },
+	  "type": "urban_settlement",
+	  "region": 5,
+	  "area": 157,
+	  "tag": "country-belarus~province-minskaja_oblast~area-molodechnenskij_rajon~locality-gorodskoj_posyolok_radoshkovichi",
+	  "bbox": [
+		27.208775,
+		54.142943,
+		27.263474,
+		54.182253
+	  ]
+	},
+	{
+	  "id": "265",
+	  "pid": "2",
+	  "labels": {
+		"ru": "Руденск",
+		"ru_pred": "Руденске",
+		"by": "Рудзенск",
+		"by_pred": "Рудзенску"
+	  },
+	  "type": "urban_settlement",
+	  "region": 5,
+	  "area": 145,
+	  "tag": "country-belarus~province-minskaja_oblast~area-puhovichskij_rajon~area-rudenskij_selsovet~locality-gorodskoj_posyolok_rudensk",
+	  "bbox": [
+		27.848457,
+		53.582848,
+		27.878748,
+		53.61062
+	  ]
+	},
+	{
+	  "id": "245",
+	  "pid": "2",
+	  "labels": {
+		"ru": "Слуцк",
+		"ru_pred": "Слуцке",
+		"by": "Слуцк",
+		"by_pred": "Слуцку"
+	  },
+	  "type": "city",
+	  "region": 5,
+	  "area": 17,
+	  "tag": "country-belarus~province-minskaja_oblast~area-sluckij_rajon~locality-sluck",
+	  "bbox": [
+		27.473697,
+		52.982186,
+		27.626115,
+		53.058233
+	  ]
+	},
+	{
+	  "id": "268",
+	  "pid": "2",
+	  "labels": {
+		"ru": "Смиловичи",
+		"ru_pred": "Смиловичах",
+		"by": "Смілавічы",
+		"by_pred": "Смілавічах"
+	  },
+	  "type": "urban_settlement",
+	  "region": 5,
+	  "area": 177,
+	  "tag": "country-belarus~province-minskaja_oblast~area-chervenskij_rajon~area-smilovichskij_selsovet~locality-gorodskoj_posyolok_smilovichi",
+	  "bbox": [
+		27.992241,
+		53.733628,
+		28.05921,
+		53.759325
+	  ]
+	},
+	{
+	  "id": "246",
+	  "pid": "2",
+	  "labels": {
+		"ru": "Смолевичи",
+		"ru_pred": "Смолевичах",
+		"by": "Смалявічы",
+		"by_pred": "Смалявічах"
+	  },
+	  "type": "city",
+	  "region": 5,
+	  "area": 102,
+	  "tag": "country-belarus~province-minskaja_oblast~area-smolevichskij_rajon~locality-smolevichi",
+	  "bbox": [
+		28.029171,
+		53.999113,
+		28.149114,
+		54.050689
+	  ]
+	},
+	{
+	  "id": "247",
+	  "pid": "2",
+	  "labels": {
+		"ru": "Солигорск",
+		"ru_pred": "Солигорске",
+		"by": "Салігорск",
+		"by_pred": "Салігорску"
+	  },
+	  "type": "city",
+	  "region": 5,
+	  "area": 45,
+	  "tag": "country-belarus~province-minskaja_oblast~area-soligorskij_rajon~locality-soligorsk",
+	  "bbox": [
+		27.441142,
+		52.745763,
+		27.569476,
+		52.814402
+	  ]
+	},
+	{
+	  "id": "269",
+	  "pid": "2",
+	  "labels": {
+		"ru": "Старобин",
+		"ru_pred": "Старобине",
+		"by": "Старобін",
+		"by_pred": "Старобіне"
+	  },
+	  "type": "urban_settlement",
+	  "region": 5,
+	  "area": 178,
+	  "tag": "country-belarus~province-minskaja_oblast~area-soligorskij_rajon~area-starobinskij_selsovet~locality-gorodskoj_posyolok_starobin",
+	  "bbox": [
+		27.41139,
+		52.713228,
+		27.471829,
+		52.751715
+	  ]
+	},
+	{
+	  "id": "248",
+	  "pid": "2",
+	  "labels": {
+		"ru": "Старые Дороги",
+		"ru_pred": "Старых Дорогах",
+		"by": "Старыя Дарогі",
+		"by_pred": "Старых Дарогах"
+	  },
+	  "type": "city",
+	  "region": 5,
+	  "area": 103,
+	  "tag": "country-belarus~province-minskaja_oblast~area-starodorozhskij_rajon~locality-starye_dorogi",
+	  "bbox": [
+		28.21797,
+		53.019492,
+		28.296204,
+		53.061302
+	  ]
+	},
+	{
+	  "id": "249",
+	  "pid": "2",
+	  "labels": {
+		"ru": "Столбцы",
+		"ru_pred": "Столбцах",
+		"by": "Стоўбцы",
+		"by_pred": "Стоўбцах"
+	  },
+	  "type": "city",
+	  "region": 5,
+	  "area": 104,
+	  "tag": "country-belarus~province-minskaja_oblast~area-stolbcovskij_rajon~locality-stolbcy",
+	  "bbox": [
+		26.706572,
+		53.461135,
+		26.79211,
+		53.512141
+	  ]
+	},
+	{
+	  "id": "250",
+	  "pid": "2",
+	  "labels": {
+		"ru": "Узда",
+		"ru_pred": "Узде",
+		"by": "Узда",
+		"by_pred": "Уздзе"
+	  },
+	  "type": "city",
+	  "region": 5,
+	  "area": 105,
+	  "tag": "country-belarus~province-minskaja_oblast~area-uzdenskij_rajon~locality-uzda",
+	  "bbox": [
+		27.180613,
+		53.43622,
+		27.24654,
+		53.480457
+	  ]
+	},
+	{
+	  "id": "254",
+	  "pid": "2",
+	  "labels": {
+		"ru": "Фаниполь",
+		"ru_pred": "Фаниполе",
+		"by": "Фаніпаль",
+		"by_pred": "Фаніпалі"
+	  },
+	  "type": "city",
+	  "region": 5,
+	  "area": 144,
+	  "tag": "country-belarus~province-minskaja_oblast~area-dzerzhinskij_rajon~locality-fanipol",
+	  "bbox": [
+		27.308237,
+		53.724727,
+		27.362971,
+		53.765463
+	  ]
+	},
+	{
+	  "id": "251",
+	  "pid": "2",
+	  "labels": {
+		"ru": "Червень",
+		"ru_pred": "Червене",
+		"by": "Чэрвень",
+		"by_pred": "Чэрвені"
+	  },
+	  "type": "city",
+	  "region": 5,
+	  "area": 106,
+	  "tag": "country-belarus~province-minskaja_oblast~area-chervenskij_rajon~locality-cherven",
+	  "bbox": [
+		28.395665,
+		53.693181,
+		28.465824,
+		53.726048
+	  ]
+	},
+	{
+	  "id": "2405",
+	  "pid": "240",
+	  "labels": {
+		"ru": "Заводской район",
+		"ru_pred": "Заводском районе",
+		"by": "Завадскі раён",
+		"by_pred": "Завадскім раёне"
+	  },
+	  "type": "district",
+	  "region": 7,
+	  "area": 26,
+	  "tag": "country-belarus~province-minsk~locality-minsk~coder_district-26",
+	  "bbox": [
+		27.599713,
+		53.804846,
+		27.818606,
+		53.894368
+	  ]
+	},
+	{
+	  "id": "2406",
+	  "pid": "240",
+	  "labels": {
+		"ru": "Ленинский район",
+		"ru_pred": "Ленинском районе",
+		"by": "Ленінскі раён",
+		"by_pred": "Ленінскім раёне"
+	  },
+	  "type": "district",
+	  "region": 7,
+	  "area": 27,
+	  "tag": "country-belarus~province-minsk~locality-minsk~coder_district-27",
+	  "bbox": [
+		27.550243,
+		53.830111,
+		27.627264,
+		53.904379
+	  ]
+	},
+	{
+	  "id": "2408",
+	  "pid": "240",
+	  "labels": {
+		"ru": "Московский район",
+		"ru_pred": "Московском районе",
+		"by": "Маскоўскі раён",
+		"by_pred": "Маскоўскім раёне"
+	  },
+	  "type": "district",
+	  "region": 7,
+	  "area": 29,
+	  "tag": "country-belarus~province-minsk~locality-minsk~coder_district-29",
+	  "bbox": [
+		27.418864,
+		53.835489,
+		27.553746,
+		53.907031
+	  ]
+	},
+	{
+	  "id": "2407",
+	  "pid": "240",
+	  "labels": {
+		"ru": "Октябрьский район",
+		"ru_pred": "Октябрьском районе",
+		"by": "Картрычніцкі раён",
+		"by_pred": "Кастрычніцкім раёне"
+	  },
+	  "type": "district",
+	  "region": 7,
+	  "area": 28,
+	  "tag": "country-belarus~province-minsk~locality-minsk~coder_district-28",
+	  "bbox": [
+		27.482133,
+		53.793885,
+		28.080581,
+		53.924187
+	  ]
+	},
+	{
+	  "id": "2404",
+	  "pid": "240",
+	  "labels": {
+		"ru": "Партизанский район",
+		"ru_pred": "Партизанском районе",
+		"by": "Партызанскі раён",
+		"by_pred": "Партызанскім раёне"
+	  },
+	  "type": "district",
+	  "region": 7,
+	  "area": 25,
+	  "tag": "country-belarus~province-minsk~locality-minsk~coder_district-25",
+	  "bbox": [
+		27.56635,
+		53.866179,
+		27.84913,
+		53.930979
+	  ]
+	},
+	{
+	  "id": "2403",
+	  "pid": "240",
+	  "labels": {
+		"ru": "Первомайский район",
+		"ru_pred": "Первомайском районе",
+		"by": "Першамайскі раён",
+		"by_pred": "Першамайскім раёне"
+	  },
+	  "type": "district",
+	  "region": 7,
+	  "area": 24,
+	  "tag": "country-belarus~province-minsk~locality-minsk~coder_district-24",
+	  "bbox": [
+		27.587685,
+		53.902713,
+		27.74639,
+		53.963675
+	  ]
+	},
+	{
+	  "id": "2402",
+	  "pid": "240",
+	  "labels": {
+		"ru": "Советский район",
+		"ru_pred": "Советском районе",
+		"by": "Савецкі раён",
+		"by_pred": "Савецкім раёне"
+	  },
+	  "type": "district",
+	  "region": 7,
+	  "area": 23,
+	  "tag": "country-belarus~province-minsk~locality-minsk~coder_district-23",
+	  "bbox": [
+		27.553773,
+		53.907185,
+		27.64188,
+		53.97162
+	  ]
+	},
+	{
+	  "id": "2409",
+	  "pid": "240",
+	  "labels": {
+		"ru": "Фрунзенский район",
+		"ru_pred": "Фрунзенском районе",
+		"by": "Фрунзенскі раён",
+		"by_pred": "Фрунзенскім раёне"
+	  },
+	  "type": "district",
+	  "region": 7,
+	  "area": 30,
+	  "tag": "country-belarus~province-minsk~locality-minsk~coder_district-30",
+	  "bbox": [
+		27.374425,
+		53.860577,
+		27.533417,
+		53.942958
+	  ]
+	},
+	{
+	  "id": "2401",
+	  "pid": "240",
+	  "labels": {
+		"ru": "Центральный район",
+		"ru_pred": "Центральном районе",
+		"by": "Цэнтральны раён",
+		"by_pred": "Цэнтральным раёне"
+	  },
+	  "type": "district",
+	  "region": 7,
+	  "area": 22,
+	  "tag": "country-belarus~province-minsk~locality-minsk~coder_district-22",
+	  "bbox": [
+		27.43162,
+		53.898103,
+		27.577758,
+		53.970884
+	  ]
+	},
+	{
+	  "id": "330",
+	  "pid": "3",
+	  "labels": {
+		"ru": "Барановичи",
+		"ru_pred": "Барановичах",
+		"by": "Баранавічы",
+		"by_pred": "Баранавічах"
+	  },
+	  "type": "city",
+	  "region": 1,
+	  "area": 37,
+	  "tag": "country-belarus~province-brestskaja_oblast~locality-baranovichi",
+	  "bbox": [
+		25.902346,
+		53.079778,
+		26.1063,
+		53.173938
+	  ]
+	},
+	{
+	  "id": "346",
+	  "pid": "3",
+	  "labels": {
+		"ru": "Белоозерск",
+		"ru_pred": "Белоозерске",
+		"by": "Белаазёрск",
+		"by_pred": "Белаазёрску"
+	  },
+	  "type": "city",
+	  "region": 1,
+	  "area": 123,
+	  "tag": "country-belarus~province-brestskaja_oblast~area-beryozovskij_rajon~locality-beloozyorsk",
+	  "bbox": [
+		25.141437,
+		52.438393,
+		25.219851,
+		52.48846
+	  ]
+	},
+	{
+	  "id": "331",
+	  "pid": "3",
+	  "labels": {
+		"ru": "Береза",
+		"ru_pred": "Березе",
+		"by": "Бяроза",
+		"by_pred": "Бярозе"
+	  },
+	  "type": "city",
+	  "region": 1,
+	  "area": 38,
+	  "tag": "country-belarus~province-brestskaja_oblast~area-beryozovskij_rajon~locality-beryoza",
+	  "bbox": [24.919275,52.506432,25.033945,52.563999]
+	},
+	{
+	  "id": "347",
+	  "pid": "3",
+	  "labels": {
+		"ru": "Высокое",
+		"ru_pred": "Высоком",
+		"by": "Высокае",
+		"by_pred": "Высокім"
+	  },
+	  "type": "city",
+	  "region": 1,
+	  "area": 148,
+	  "tag": "country-belarus~province-brestskaja_oblast~area-kameneckij_rajon~locality-vysokoe",
+	  "bbox": [
+		23.337827,
+		52.356098,
+		23.40909,
+		52.381595
+	  ]
+	},
+	{
+	  "id": "333",
+	  "pid": "3",
+	  "labels": {
+		"ru": "Ганцевичи",
+		"ru_pred": "Ганцевичах",
+		"by": "Ганцавічы",
+		"by_pred": "Ганцавічах"
+	  },
+	  "type": "city",
+	  "region": 1,
+	  "area": 48,
+	  "tag": "country-belarus~province-brestskaja_oblast~area-gancevichskij_rajon~locality-gancevichi",
+	  "bbox": [
+		26.400651,
+		52.736151,
+		26.464898,
+		52.781035
+	  ]
+	},
+	{
+	  "id": "352",
+	  "pid": "3",
+	  "labels": {
+		"ru": "Городище",
+		"ru_pred": "Городище",
+		"by": "Гарадзішча",
+		"by_pred": "Гарадзішчах"
+	  },
+	  "type": "urban_settlement",
+	  "region": 1,
+	  "area": 159,
+	  "tag": "country-belarus~province-brestskaja_oblast~area-pinskij_rajon~area-gorodischenskij_selsovet~locality-posyolok_gorodische",
+	  "bbox": [
+		26.244128,
+		52.169232,
+		26.273746,
+		52.179957
+	  ]
+	},
+	{
+	  "id": "348",
+	  "pid": "3",
+	  "labels": {
+		"ru": "Давид-Городок",
+		"ru_pred": "Давид-Городке",
+		"by": "Давыд-Гарадок",
+		"by_pred": "Давыд-Гарадку"
+	  },
+	  "type": "city",
+	  "region": 1,
+	  "area": 147,
+	  "tag": "country-belarus~province-brestskaja_oblast~area-stolinskij_rajon~locality-david-gorodok",
+	  "bbox": [
+		27.177262,
+		52.036921,
+		27.256377,
+		52.08304
+	  ]
+	},
+	{
+	  "id": "334",
+	  "pid": "3",
+	  "labels": {
+		"ru": "Дрогичин",
+		"ru_pred": "Дрогичине",
+		"by": "Драгічын",
+		"by_pred": "Драгічыне"
+	  },
+	  "type": "city",
+	  "region": 1,
+	  "area": 49,
+	  "tag": "country-belarus~province-brestskaja_oblast~area-drogichinskij_rajon~locality-drogichin",
+	  "bbox": [
+		25.101642,
+		52.174446,
+		25.197591,
+		52.2091
+	  ]
+	},
+	{
+	  "id": "335",
+	  "pid": "3",
+	  "labels": {
+		"ru": "Жабинка",
+		"ru_pred": "Жабинке",
+		"by": "Жабінка",
+		"by_pred": "Жабінцы"
+	  },
+	  "type": "city",
+	  "region": 1,
+	  "area": 50,
+	  "tag": "country-belarus~province-brestskaja_oblast~area-zhabinkovskij_rajon~locality-zhabinka",
+	  "bbox": [
+		23.959075,
+		52.169028,
+		24.066226,
+		52.22306
+	  ]
+	},
+	{
+	  "id": "336",
+	  "pid": "3",
+	  "labels": {
+		"ru": "Иваново",
+		"ru_pred": "Иваново",
+		"by": "Іванава",
+		"by_pred": "Іванава"
+	  },
+	  "type": "city",
+	  "region": 1,
+	  "area": 51,
+	  "tag": "country-belarus~province-brestskaja_oblast~area-ivanovskij_rajon~locality-ivanovo",
+	  "bbox": [
+		25.486678,
+		52.11822,
+		25.604357,
+		52.165133
+	  ]
+	},
+	{
+	  "id": "337",
+	  "pid": "3",
+	  "labels": {
+		"ru": "Ивацевичи",
+		"ru_pred": "Ивацевичах",
+		"by": "Івацэвічы",
+		"by_pred": "Івацэвічах"
+	  },
+	  "type": "city",
+	  "region": 1,
+	  "area": 52,
+	  "tag": "country-belarus~province-brestskaja_oblast~area-ivacevichskij_rajon~locality-ivacevichi",
+	  "bbox": [
+		25.297457,
+		52.688851,
+		25.369043,
+		52.732481
+	  ]
+	},
+	{
+	  "id": "338",
+	  "pid": "3",
+	  "labels": {
+		"ru": "Каменец",
+		"ru_pred": "Каменце",
+		"by": "Камянец",
+		"by_pred": "Камянцы"
+	  },
+	  "type": "city",
+	  "region": 1,
+	  "area": 53,
+	  "tag": "country-belarus~province-brestskaja_oblast~area-kameneckij_rajon~locality-kamenec",
+	  "bbox": [
+		23.784065,
+		52.38038,
+		23.855041,
+		52.411341
+	  ]
+	},
+	{
+	  "id": "339",
+	  "pid": "3",
+	  "labels": {
+		"ru": "Кобрин",
+		"ru_pred": "Кобрине",
+		"by": "Кобрын",
+		"by_pred": "Кобрыне"
+	  },
+	  "type": "city",
+	  "region": 1,
+	  "area": 2,
+	  "tag": "country-belarus~province-brestskaja_oblast~area-kobrinskij_rajon~locality-kobrin",
+	  "bbox": [
+		24.300974,
+		52.180316,
+		24.422587,
+		52.250994
+	  ]
+	},
+	{
+	  "id": "340",
+	  "pid": "3",
+	  "labels": {
+		"ru": "Лунинец",
+		"ru_pred": "Лунинце",
+		"by": "Лунінец",
+		"by_pred": "Лунінцы"
+	  },
+	  "type": "city",
+	  "region": 1,
+	  "area": 3,
+	  "tag": "country-belarus~province-brestskaja_oblast~area-lunineckij_rajon~locality-luninec",
+	  "bbox": [
+		26.757183,
+		52.227104,
+		26.856833,
+		52.268837
+	  ]
+	},
+	{
+	  "id": "341",
+	  "pid": "3",
+	  "labels": {
+		"ru": "Ляховичи",
+		"ru_pred": "Ляховичах",
+		"by": "Ляхавічы",
+		"by_pred": "Ляхавічах"
+	  },
+	  "type": "city",
+	  "region": 1,
+	  "area": 54,
+	  "tag": "country-belarus~province-brestskaja_oblast~area-ljahovichskij_rajon~locality-ljahovichi",
+	  "bbox": [
+		26.21708,
+		53.023875,
+		26.291326,
+		53.053963
+	  ]
+	},
+	{
+	  "id": "342",
+	  "pid": "3",
+	  "labels": {
+		"ru": "Малорита",
+		"ru_pred": "Малорите",
+		"by": "Маларыта",
+		"by_pred": "Маларыце"
+	  },
+	  "type": "city",
+	  "region": 1,
+	  "area": 55,
+	  "tag": "country-belarus~province-brestskaja_oblast~area-maloritskij_rajon~locality-malorita",
+	  "bbox": [
+		24.039618,
+		51.777651,
+		24.116415,
+		51.815193
+	  ]
+	},
+	{
+	  "id": "350",
+	  "pid": "3",
+	  "labels": {
+		"ru": "Микашевичи",
+		"ru_pred": "Микашевичах",
+		"by": "Мікашэвічы",
+		"by_pred": "Мікашэвічах"
+	  },
+	  "type": "city",
+	  "region": 1,
+	  "area": 146,
+	  "tag": "country-belarus~province-brestskaja_oblast~area-lunineckij_rajon~locality-mikashevichi",
+	  "bbox": [
+		27.446389,
+		52.205993,
+		27.506441,
+		52.243313
+	  ]
+	},
+	{
+	  "id": "343",
+	  "pid": "3",
+	  "labels": {
+		"ru": "Пинск",
+		"ru_pred": "Пинске",
+		"by": "Пінск",
+		"by_pred": "Пінску"
+	  },
+	  "type": "city",
+	  "region": 1,
+	  "area": 4,
+	  "tag": "country-belarus~province-brestskaja_oblast~locality-pinsk",
+	  "bbox": [
+		25.985908,
+		52.08962,
+		26.154306,
+		52.164586
+	  ]
+	},
+	{
+	  "id": "344",
+	  "pid": "3",
+	  "labels": {
+		"ru": "Пружаны",
+		"ru_pred": "Пружанах",
+		"by": "Пружаны",
+		"by_pred": "Пружанах"
+	  },
+	  "type": "city",
+	  "region": 1,
+	  "area": 56,
+	  "tag": "country-belarus~province-brestskaja_oblast~area-pruzhanskij_rajon~locality-pruzhany",
+	  "bbox": [
+		24.412975,
+		52.538673,
+		24.499528,
+		52.577589
+	  ]
+	},
+	{
+	  "id": "356",
+	  "pid": "3",
+	  "labels": {
+		"ru": "Ружаны",
+		"ru_pred": "Ружанах",
+		"by": "Ружаны",
+		"by_pred": "Ружанах"
+	  },
+	  "type": "urban_settlement",
+	  "region": 1,
+	  "area": 160,
+	  "tag": "country-belarus~province-brestskaja_oblast~area-pruzhanskij_rajon~area-ruzhanskij_selsovet~locality-ruzhany",
+	  "bbox": [
+		24.866903,
+		52.852604,
+		24.912978,
+		52.885518
+	  ]
+	},
+	{
+	  "id": "345",
+	  "pid": "3",
+	  "labels": {
+		"ru": "Столин",
+		"ru_pred": "Столине",
+		"by": "Столін",
+		"by_pred": "Століне"
+	  },
+	  "type": "city",
+	  "region": 1,
+	  "area": 57,
+	  "tag": "country-belarus~province-brestskaja_oblast~area-stolinskij_rajon~locality-stolin",
+	  "bbox": [
+		26.793107,
+		51.873259,
+		26.878132,
+		51.911749
+	  ]
+	},
+	{
+	  "id": "357",
+	  "pid": "3",
+	  "labels": {
+		"ru": "Телеханы",
+		"ru_pred": "Телеханах",
+		"by": "Целяханы",
+		"by_pred": "Целяханах"
+	  },
+	  "type": "urban_settlement",
+	  "region": 1,
+	  "area": 161,
+	  "tag": "country-belarus~province-brestskaja_oblast~area-ivacevichskij_rajon~area-telehanskij_selsovet~locality-gorodskoj_posyolok_telehany",
+	  "bbox": [
+		25.826537,
+		52.501487,
+		25.869091,
+		52.536077
+	  ]
+	},
+	{
+	  "id": "451",
+	  "pid": "4",
+	  "labels": {
+		"ru": "Барань",
+		"ru_pred": "Баране",
+		"by": "Барань",
+		"by_pred": "Барані"
+	  },
+	  "type": "city",
+	  "region": 6,
+	  "area": 107,
+	  "tag": "country-belarus~province-vitebskaja_oblast~area-orshanskij_rajon~locality-baran",
+	  "bbox": [
+		30.296141,
+		54.468516,
+		30.338829,
+		54.489555
+	  ]
+	},
+	{
+	  "id": "430",
+	  "pid": "4",
+	  "labels": {
+		"ru": "Бешенковичи",
+		"ru_pred": "Бешенковичах",
+		"by": "Бешанковічы",
+		"by_pred": "Бешанковічах"
+	  },
+	  "type": "urban_settlement",
+	  "region": 6,
+	  "area": 125,
+	  "tag": "country-belarus~province-vitebskaja_oblast~area-beshenkovichskij_rajon~locality-gorodskoj_posyolok_beshenkovichi",
+	  "bbox": [
+		29.428144,
+		55.029606,
+		29.497063,
+		55.055326
+	  ]
+	},
+	{
+	  "id": "431",
+	  "pid": "4",
+	  "labels": {
+		"ru": "Браслав",
+		"ru_pred": "Браславе",
+		"by": "Браслаў",
+		"by_pred": "Браславе"
+	  },
+	  "type": "city",
+	  "region": 6,
+	  "area": 108,
+	  "tag": "country-belarus~province-vitebskaja_oblast~area-braslavskij_rajon~locality-braslav",
+	  "bbox": [
+		26.999405,
+		55.601879,
+		27.098785,
+		55.662105
+	  ]
+	},
+	{
+	  "id": "470",
+	  "pid": "4",
+	  "labels": {
+		"ru": "Браславский район",
+		"ru_pred": "Браславском районе",
+		"by": "Браслаўскі раён",
+		"by_pred": "Браслаўскім раёне"
+	  },
+	  "type": "region",
+	  "region": "6",
+	  "area": "155",
+	  "tag": "country-belarus~province-vitebskaja_oblast~area-braslavskij_rajon",
+	  "bbox": [
+		26.439934,
+		55.275272,
+		27.515658,
+		55.852051
+	  ]
+	},
+	{
+	  "id": "432",
+	  "pid": "4",
+	  "labels": {
+		"ru": "Верхнедвинск",
+		"ru_pred": "Верхнедвинске",
+		"by": "Верхнядзвінск",
+		"by_pred": "Верхнядзвінску"
+	  },
+	  "type": "city",
+	  "region": 6,
+	  "area": 109,
+	  "tag": "country-belarus~province-vitebskaja_oblast~area-verhnedvinskij_rajon~locality-verhnedvinsk",
+	  "bbox": [
+		27.917636,
+		55.744799,
+		27.966405,
+		55.793232
+	  ]
+	},
+	{
+	  "id": "457",
+	  "pid": "4",
+	  "labels": {
+		"ru": "Ветрино",
+		"ru_pred": "Ветрино",
+		"by": "Ветрына",
+		"by_pred": "Ветрына"
+	  },
+	  "type": "urban_settlement",
+	  "region": 6,
+	  "area": 179,
+	  "tag": "country-belarus~province-vitebskaja_oblast~area-polockij_rajon~area-vetrinskij_selsovet~locality-gorodskoj_posyolok_vetrino",
+	  "bbox": [
+		28.43458,
+		55.397899,
+		28.508898,
+		55.419795
+	  ]
+	},
+	{
+	  "id": "458",
+	  "pid": "4",
+	  "labels": {
+		"ru": "Коханово",
+		"ru_pred": "Коханово",
+		"by": "Коханава",
+		"by_pred": "Коханава"
+	  },
+	  "type": "urban_settlement",
+	  "region": 6,
+	  "area": 181,
+	  "tag": "country-belarus~province-vitebskaja_oblast~area-tolochinskij_rajon~area-kohanovskij_selsovet~locality-gorodskoj_posyolok_kohanovo",
+	  "bbox": [
+		29.975281,
+		54.451837,
+		30.021445,
+		54.467391
+	  ]
+	},
+	{
+	  "id": "434",
+	  "pid": "4",
+	  "labels": {
+		"ru": "Глубокое",
+		"ru_pred": "Глубоком",
+		"by": "Глыбокае",
+		"by_pred": "Глыбокім"
+	  },
+	  "type": "city",
+	  "region": 6,
+	  "area": 110,
+	  "tag": "country-belarus~province-vitebskaja_oblast~area-glubokskij_rajon~locality-glubokoe",
+	  "bbox": [
+		27.643515,
+		55.112654,
+		27.72192,
+		55.17629
+	  ]
+	},
+	{
+	  "id": "435",
+	  "pid": "4",
+	  "labels": {
+		"ru": "Городок",
+		"ru_pred": "Городке",
+		"by": "Гарадок",
+		"by_pred": "Гарадку"
+	  },
+	  "type": "city",
+	  "region": 6,
+	  "area": 111,
+	  "tag": "country-belarus~province-vitebskaja_oblast~area-gorodokskij_rajon~locality-gorodok",
+	  "bbox": [29.946876,55.439426,30.025344,55.484801]
+	},
+	{
+	  "id": "436",
+	  "pid": "4",
+	  "labels": {
+		"ru": "Докшицы",
+		"ru_pred": "Докшицах",
+		"by": "Докшыцы",
+		"by_pred": "Докшыцах"
+	  },
+	  "type": "city",
+	  "region": 6,
+	  "area": 112,
+	  "tag": "country-belarus~province-vitebskaja_oblast~area-dokshickij_rajon~locality-dokshicy",
+	  "bbox": [
+		27.730777,
+		54.880624,
+		27.807745,
+		54.908738
+	  ]
+	},
+	{
+	  "id": "437",
+	  "pid": "4",
+	  "labels": {
+		"ru": "Дубровно",
+		"ru_pred": "Дубровно",
+		"by": "Дуброўна",
+		"by_pred": "Дуброўне"
+	  },
+	  "type": "city",
+	  "region": 6,
+	  "area": 113,
+	  "tag": "country-belarus~province-vitebskaja_oblast~area-dubrovenskij_rajon~locality-dubrovno",
+	  "bbox": [
+		30.649808,
+		54.560498,
+		30.719679,
+		54.592039
+	  ]
+	},
+	{
+	  "id": "438",
+	  "pid": "4",
+	  "labels": {
+		"ru": "Лепель",
+		"ru_pred": "Лепеле",
+		"by": "Лепель",
+		"by_pred": "Лепелі"
+	  },
+	  "type": "city",
+	  "region": 6,
+	  "area": 114,
+	  "tag": "country-belarus~province-vitebskaja_oblast~area-lepelskij_rajon~locality-lepel",
+	  "bbox": [
+		28.636513,
+		54.850137,
+		28.753536,
+		54.919171
+	  ]
+	},
+	{
+	  "id": "439",
+	  "pid": "4",
+	  "labels": {
+		"ru": "Лиозно",
+		"ru_pred": "Лиозно",
+		"by": "Лёзна",
+		"by_pred": "Лёзне"
+	  },
+	  "type": "urban_settlement",
+	  "region": 6,
+	  "area": 115,
+	  "tag": "country-belarus~province-vitebskaja_oblast~area-lioznenskij_rajon~locality-gorodskoj_posyolok_liozno",
+	  "bbox": [
+		30.780288,
+		54.997197,
+		30.819985,
+		55.041023
+	  ]
+	},
+	{
+	  "id": "440",
+	  "pid": "4",
+	  "labels": {
+		"ru": "Миоры",
+		"ru_pred": "Миорах",
+		"by": "Міёры",
+		"by_pred": "Міёрах"
+	  },
+	  "type": "city",
+	  "region": 6,
+	  "area": 116,
+	  "tag": "country-belarus~province-vitebskaja_oblast~area-miorskij_rajon~locality-miory",
+	  "bbox": [
+		27.592167,
+		55.605017,
+		27.679897,
+		55.647996
+	  ]
+	},
+	{
+	  "id": "453",
+	  "pid": "4",
+	  "labels": {
+		"ru": "Новолукомль",
+		"ru_pred": "Новолукомле",
+		"by": "Новалукомль",
+		"by_pred": "Новалукомлі"
+	  },
+	  "type": "city",
+	  "region": 6,
+	  "area": 117,
+	  "tag": "country-belarus~province-vitebskaja_oblast~area-chashnikskij_rajon~locality-novolukoml",
+	  "bbox": [
+		29.109206,
+		54.629956,
+		29.186587,
+		54.701746
+	  ]
+	},
+	{
+	  "id": "454",
+	  "pid": "4",
+	  "labels": {
+		"ru": "Новополоцк",
+		"ru_pred": "Новополоцке",
+		"by": "Наваполацк",
+		"by_pred": "Наваполацку"
+	  },
+	  "type": "city",
+	  "region": 6,
+	  "area": 46,
+	  "tag": "country-belarus~province-vitebskaja_oblast~locality-novopolock",
+	  "bbox": [
+		28.494121,
+		55.485816,
+		28.720667,
+		55.604697
+	  ]
+	},
+	{
+	  "id": "441",
+	  "pid": "4",
+	  "labels": {
+		"ru": "Орша",
+		"ru_pred": "Орше",
+		"by": "Орша",
+		"by_pred": "Оршы"
+	  },
+	  "type": "city",
+	  "region": 6,
+	  "area": 19,
+	  "tag": "country-belarus~province-vitebskaja_oblast~area-orshanskij_rajon~locality-orsha",
+	  "bbox": [
+		30.345863,
+		54.462106,
+		30.463946,
+		54.561484
+	  ]
+	},
+	{
+	  "id": "442",
+	  "pid": "4",
+	  "labels": {
+		"ru": "Полоцк",
+		"ru_pred": "Полоцке",
+		"by": "Полацк",
+		"by_pred": "Полацку"
+	  },
+	  "type": "city",
+	  "region": 6,
+	  "area": 20,
+	  "tag": "country-belarus~province-vitebskaja_oblast~area-polockij_rajon~locality-polock",
+	  "bbox": [
+		28.707309,
+		55.451859,
+		28.853824,
+		55.554522
+	  ]
+	},
+	{
+	  "id": "443",
+	  "pid": "4",
+	  "labels": {
+		"ru": "Поставы",
+		"ru_pred": "Поставах",
+		"by": "Пастаў",
+		"by_pred": "Паставах"
+	  },
+	  "type": "city",
+	  "region": 6,
+	  "area": 47,
+	  "tag": "country-belarus~province-vitebskaja_oblast~area-postavskij_rajon~locality-postavy",
+	  "bbox": [
+		26.773676,
+		55.087563,
+		26.892829,
+		55.13673
+	  ]
+	},
+	{
+	  "id": "444",
+	  "pid": "4",
+	  "labels": {
+		"ru": "Россоны",
+		"ru_pred": "Россонах",
+		"by": "Расоны",
+		"by_pred": "Расонах"
+	  },
+	  "type": "urban_settlement",
+	  "region": 6,
+	  "area": 118,
+	  "tag": "country-belarus~province-vitebskaja_oblast~area-rossonskij_rajon~locality-gorodskoj_posyolok_rossony",
+	  "bbox": [
+		28.769867,
+		55.88299,
+		28.847006,
+		55.919125
+	  ]
+	},
+	{
+	  "id": "445",
+	  "pid": "4",
+	  "labels": {
+		"ru": "Сенно",
+		"ru_pred": "Сенно",
+		"by": "Сянно",
+		"by_pred": "Сянно"
+	  },
+	  "type": "city",
+	  "region": 6,
+	  "area": 119,
+	  "tag": "country-belarus~province-vitebskaja_oblast~area-sennenskij_rajon~locality-senno",
+	  "bbox": [
+		29.666997,
+		54.796283,
+		29.751843,
+		54.835626
+	  ]
+	},
+	{
+	  "id": "446",
+	  "pid": "4",
+	  "labels": {
+		"ru": "Толочин",
+		"ru_pred": "Толочине",
+		"by": "Талачын",
+		"by_pred": "Талачыне"
+	  },
+	  "type": "city",
+	  "region": 6,
+	  "area": 120,
+	  "tag": "country-belarus~province-vitebskaja_oblast~area-tolochinskij_rajon~locality-tolochin",
+	  "bbox": [
+		29.671884,
+		54.391699,
+		29.771121,
+		54.424262
+	  ]
+	},
+	{
+	  "id": "447",
+	  "pid": "4",
+	  "labels": {
+		"ru": "Ушачи",
+		"ru_pred": "Ушачах",
+		"by": "Ушачы",
+		"by_pred": "Ушачах"
+	  },
+	  "type": "urban_settlement",
+	  "region": 6,
+	  "area": 126,
+	  "tag": "country-belarus~province-vitebskaja_oblast~area-ushachskij_rajon~locality-gorodskoj_posyolok_ushachi",
+	  "bbox": [
+		28.590725,
+		55.158668,
+		28.647625,
+		55.193335
+	  ]
+	},
+	{
+	  "id": "448",
+	  "pid": "4",
+	  "labels": {
+		"ru": "Чашники",
+		"ru_pred": "Чашниках",
+		"by": "Чашнік",
+		"by_pred": "Чашніках"
+	  },
+	  "type": "city",
+	  "region": 6,
+	  "area": 121,
+	  "tag": "country-belarus~province-vitebskaja_oblast~area-chashnikskij_rajon~locality-chashniki",
+	  "bbox": [
+		29.123337,
+		54.833729,
+		29.221747,
+		54.875683
+	  ]
+	},
+	{
+	  "id": "449",
+	  "pid": "4",
+	  "labels": {
+		"ru": "Шарковщина",
+		"ru_pred": "Шарковщине",
+		"by": "Шаркаўшчына",
+		"by_pred": "Шаркаўшчыне"
+	  },
+	  "type": "urban_settlement",
+	  "region": 6,
+	  "area": 127,
+	  "tag": "country-belarus~province-vitebskaja_oblast~area-sharkovschinskij_rajon~locality-gorodskoj_posyolok_sharkovschina",
+	  "bbox": [
+		27.435465,
+		55.349389,
+		27.502111,
+		55.382171
+	  ]
+	},
+	{
+	  "id": "450",
+	  "pid": "4",
+	  "labels": {
+		"ru": "Шумилино",
+		"ru_pred": "Шумилино",
+		"by": "Шуміліна",
+		"by_pred": "Шуміліне"
+	  },
+	  "type": "urban_settlement",
+	  "region": 6,
+	  "area": 124,
+	  "tag": "country-belarus~province-vitebskaja_oblast~area-shumilinskij_rajon~locality-gorodskoj_posyolok_shumilino",
+	  "bbox": [
+		29.580822,
+		55.271621,
+		29.637748,
+		55.31951
+	  ]
+	},
+	{
+	  "id": "553",
+	  "pid": "5",
+	  "labels": {
+		"ru": "Большевик",
+		"ru_pred": "Большевике",
+		"by": "Бальшавік",
+		"by_pred": "Бальшавіку"
+	  },
+	  "type": "working_village",
+	  "region": 2,
+	  "area": 162,
+	  "tag": "country-belarus~province-gomelskaja_oblast~area-gomelskij_rajon~area-bolshevistskij_selsovet~locality-rabochij_posyolok_bolshevik",
+	  "bbox": [
+		30.862358,
+		52.553821,
+		30.893656,
+		52.576713
+	  ]
+	},
+	{
+	  "id": "530",
+	  "pid": "5",
+	  "labels": {
+		"ru": "Брагин",
+		"ru_pred": "Брагине",
+		"by": "Брагін",
+		"by_pred": "Брагіне"
+	  },
+	  "type": "city",
+	  "region": 2,
+	  "area": 128,
+	  "tag": "country-belarus~province-gomelskaja_oblast~area-braginskij_rajon~locality-gorodskoj_posyolok_bragin",
+	  "bbox": [
+		30.247623,
+		51.773092,
+		30.293716,
+		51.814786
+	  ]
+	},
+	{
+	  "id": "531",
+	  "pid": "5",
+	  "labels": {
+		"ru": "Буда-Кошелево",
+		"ru_pred": "Буда-Кошелево",
+		"by": "Буда-Кашалёва",
+		"by_pred": "Буда-Кашалева"
+	  },
+	  "type": "city",
+	  "region": 2,
+	  "area": 58,
+	  "tag": "country-belarus~province-gomelskaja_oblast~area-buda-koshelyovskij_rajon~locality-buda-koshelyovo",
+	  "bbox": [
+		30.539908,
+		52.70249,
+		30.595217,
+		52.741025
+	  ]
+	},
+	{
+	  "id": "551",
+	  "pid": "5",
+	  "labels": {
+		"ru": "Василевичи",
+		"ru_pred": "Василевичах",
+		"by": "Васілевічы",
+		"by_pred": "Васілевічах"
+	  },
+	  "type": "city",
+	  "region": 2,
+	  "area": 149,
+	  "tag": "country-belarus~province-gomelskaja_oblast~area-rechickij_rajon~locality-vasilevichi",
+	  "bbox": [
+		29.799166,
+		52.220693,
+		29.861482,
+		52.272612
+	  ]
+	},
+	{
+	  "id": "532",
+	  "pid": "5",
+	  "labels": {
+		"ru": "Ветка",
+		"ru_pred": "Ветке",
+		"by": "Ветка",
+		"by_pred": "Ветцы"
+	  },
+	  "type": "city",
+	  "region": 2,
+	  "area": 59,
+	  "tag": "country-belarus~province-gomelskaja_oblast~area-vetkovskij_rajon~locality-vetka",
+	  "bbox": [
+		31.15326,
+		52.535364,
+		31.199972,
+		52.586344
+	  ]
+	},
+	{
+	  "id": "534",
+	  "pid": "5",
+	  "labels": {
+		"ru": "Добруш",
+		"ru_pred": "Добруше",
+		"by": "Добруш",
+		"by_pred": "Добрушэ"
+	  },
+	  "type": "city",
+	  "region": 2,
+	  "area": 60,
+	  "tag": "country-belarus~province-gomelskaja_oblast~area-dobrushskij_rajon~locality-dobrush",
+	  "bbox": [
+		31.281485,
+		52.3811,
+		31.369475,
+		52.44661
+	  ]
+	},
+	{
+	  "id": "535",
+	  "pid": "5",
+	  "labels": {
+		"ru": "Ельск",
+		"ru_pred": "Ельске",
+		"by": "Ельск",
+		"by_pred": "Ельску"
+	  },
+	  "type": "city",
+	  "region": 2,
+	  "area": 61,
+	  "tag": "country-belarus~province-gomelskaja_oblast~area-elskij_rajon~locality-elsk",
+	  "bbox": [
+		29.118926,
+		51.788627,
+		29.194798,
+		51.853248
+	  ]
+	},
+	{
+	  "id": "536",
+	  "pid": "5",
+	  "labels": {
+		"ru": "Житковичи",
+		"ru_pred": "Житковичах",
+		"by": "Жыткавічы",
+		"by_pred": "Жыткавічах"
+	  },
+	  "type": "city",
+	  "region": 2,
+	  "area": 62,
+	  "tag": "country-belarus~province-gomelskaja_oblast~area-zhitkovichskij_rajon~locality-zhitkovichi",
+	  "bbox": [
+		27.796884,
+		52.171381,
+		27.885494,
+		52.265762
+	  ]
+	},
+	{
+	  "id": "537",
+	  "pid": "5",
+	  "labels": {
+		"ru": "Жлобин",
+		"ru_pred": "Жлобине",
+		"by": "Жлобін",
+		"by_pred": "Жлобіне"
+	  },
+	  "type": "city",
+	  "region": 2,
+	  "area": 6,
+	  "tag": "country-belarus~province-gomelskaja_oblast~area-zhlobinskij_rajon~locality-zhlobin",
+	  "bbox": [
+		29.951538,
+		52.854975,
+		30.103345,
+		52.932039
+	  ]
+	},
+	{
+	  "id": "538",
+	  "pid": "5",
+	  "labels": {
+		"ru": "Калинковичи",
+		"ru_pred": "Калинковичах",
+		"by": "Калінкавічы",
+		"by_pred": "Калінкавічах"
+	  },
+	  "type": "city",
+	  "region": 2,
+	  "area": 63,
+	  "tag": "country-belarus~province-gomelskaja_oblast~area-kalinkovichskij_rajon~locality-kalinkovichi",
+	  "bbox": [
+		29.281009,
+		52.09475,
+		29.367391,
+		52.159537
+	  ]
+	},
+	{
+	  "id": "539",
+	  "pid": "5",
+	  "labels": {
+		"ru": "Корма",
+		"ru_pred": "Корме",
+		"by": "Карма",
+		"by_pred": "Карме"
+	  },
+	  "type": "urban_settlement",
+	  "region": 2,
+	  "area": 129,
+	  "tag": "country-belarus~province-gomelskaja_oblast~area-kormjanskij_rajon~locality-gorodskoj_posyolok_korma",
+	  "bbox": [
+		30.760301,
+		53.115162,
+		30.841805,
+		53.146802
+	  ]
+	},
+	{
+	  "id": "557",
+	  "pid": "5",
+	  "labels": {
+		"ru": "Костюковка",
+		"ru_pred": "Костюковке",
+		"by": "Касцюкоўка",
+		"by_pred": "Касцюкоўцы"
+	  },
+	  "type": "working_village",
+	  "region": 2,
+	  "area": 163,
+	  "tag": "country-belarus~province-gomelskaja_oblast~area-gomelskij_rajon~area-eryominskij_selsovet~locality-derevnja_kostjukovka",
+	  "bbox": [
+		30.926273,
+		52.527415,
+		30.94318,
+		52.549123
+	  ]
+	},
+	{
+	  "id": "540",
+	  "pid": "5",
+	  "labels": {
+		"ru": "Лельчицы",
+		"ru_pred": "Лельчицах",
+		"by": "Лельчыцы",
+		"by_pred": "Лельчыцах"
+	  },
+	  "type": "urban_settlement",
+	  "region": 2,
+	  "area": 130,
+	  "tag": "country-belarus~province-gomelskaja_oblast~area-lelchickij_rajon~locality-gorodskoj_posyolok_lelchicy",
+	  "bbox": [
+		28.290464,
+		51.767658,
+		28.350058,
+		51.806874
+	  ]
+	},
+	{
+	  "id": "541",
+	  "pid": "5",
+	  "labels": {
+		"ru": "Лоев",
+		"ru_pred": "Лоеве",
+		"by": "Лоеў",
+		"by_pred": "Лоеве"
+	  },
+	  "type": "urban_settlement",
+	  "region": 2,
+	  "area": 131,
+	  "tag": "country-belarus~province-gomelskaja_oblast~area-loevskij_rajon~locality-gorodskoj_posyolok_loev",
+	  "bbox": [
+		30.767873,
+		51.925486,
+		30.811783,
+		51.960718
+	  ]
+	},
+	{
+	  "id": "542",
+	  "pid": "5",
+	  "labels": {
+		"ru": "Мозырь",
+		"ru_pred": "Мозыре",
+		"by": "Мазыр",
+		"by_pred": "Мазыры"
+	  },
+	  "type": "city",
+	  "region": 2,
+	  "area": 7,
+	  "tag": "country-belarus~province-gomelskaja_oblast~area-mozyrskij_rajon~locality-mozyr",
+	  "bbox": [
+		29.167444,
+		52.005492,
+		29.322448,
+		52.096642
+	  ]
+	},
+	{
+	  "id": "543",
+	  "pid": "5",
+	  "labels": {
+		"ru": "Наровля",
+		"ru_pred": "Наровле",
+		"by": "Нароўля",
+		"by_pred": "Нароўлі"
+	  },
+	  "type": "city",
+	  "region": 2,
+	  "area": 64,
+	  "tag": "country-belarus~province-gomelskaja_oblast~area-narovljanskij_rajon~locality-narovlja",
+	  "bbox": [
+		29.475737,
+		51.768405,
+		29.55195,
+		51.828102
+	  ]
+	},
+	{
+	  "id": "544",
+	  "pid": "5",
+	  "labels": {
+		"ru": "Октябрьский",
+		"ru_pred": "Октябрьском",
+		"by": "Акцябрскі",
+		"by_pred": "Актябрскім"
+	  },
+	  "type": "city",
+	  "region": 2,
+	  "area": 132,
+	  "tag": "country-belarus~province-gomelskaja_oblast~area-oktjabrskij_rajon",
+	  "bbox": [
+		28.429496,
+		52.465324,
+		29.326176,
+		52.873557
+	  ]
+	},
+	{
+	  "id": "559",
+	  "pid": "5",
+	  "labels": {
+		"ru": "Паричи",
+		"ru_pred": "Паричах",
+		"by": "Парычы",
+		"by_pred": "Парычах"
+	  },
+	  "type": "urban_settlement",
+	  "region": 2,
+	  "area": 164,
+	  "tag": "country-belarus~province-gomelskaja_oblast~area-svetlogorskij_rajon~area-parichskij_selsovet~locality-gorodskoj_posyolok_parichi",
+	  "bbox": [
+		29.40132,
+		52.797929,
+		29.432546,
+		52.82109
+	  ]
+	},
+	{
+	  "id": "545",
+	  "pid": "5",
+	  "labels": {
+		"ru": "Петриков",
+		"ru_pred": "Петрикове",
+		"by": "Петрыкаў",
+		"by_pred": "Петрыкаве"
+	  },
+	  "type": "city",
+	  "region": 2,
+	  "area": 65,
+	  "tag": "country-belarus~province-gomelskaja_oblast~area-petrikovskij_rajon~locality-petrikov",
+	  "bbox": [
+		28.449447,
+		52.110377,
+		28.533736,
+		52.143059
+	  ]
+	},
+	{
+	  "id": "546",
+	  "pid": "5",
+	  "labels": {
+		"ru": "Речица",
+		"ru_pred": "Речице",
+		"by": "Рэчыца",
+		"by_pred": "Рэчыцы"
+	  },
+	  "type": "city",
+	  "region": 2,
+	  "area": 8,
+	  "tag": "country-belarus~province-gomelskaja_oblast~area-rechickij_rajon~locality-rechica",
+	  "bbox": [
+		30.322327,
+		52.333414,
+		30.451981,
+		52.39721
+	  ]
+	},
+	{
+	  "id": "547",
+	  "pid": "5",
+	  "labels": {
+		"ru": "Рогачев",
+		"ru_pred": "Рогачеве",
+		"by": "Рагачоў",
+		"by_pred": "Рагачове"
+	  },
+	  "type": "city",
+	  "region": 2,
+	  "area": 66,
+	  "tag": "country-belarus~province-gomelskaja_oblast~area-rogachyovskij_rajon~locality-rogachyov",
+	  "bbox": [
+		29.958024,
+		53.041252,
+		30.078039,
+		53.129283
+	  ]
+	},
+	{
+	  "id": "548",
+	  "pid": "5",
+	  "labels": {
+		"ru": "Светлогорск",
+		"ru_pred": "Светлогорске",
+		"by": "Светлагорск",
+		"by_pred": "Светлагорску"
+	  },
+	  "type": "city",
+	  "region": 2,
+	  "area": 39,
+	  "tag": "country-belarus~province-gomelskaja_oblast~area-svetlogorskij_rajon~locality-svetlogorsk",
+	  "bbox": [
+		29.648519,
+		52.596509,
+		29.806649,
+		52.648663
+	  ]
+	},
+	{
+	  "id": "562",
+	  "pid": "5",
+	  "labels": {
+		"ru": "Тереховка",
+		"ru_pred": "Тереховке",
+		"by": "Церахоўка",
+		"by_pred": "Церахоўцы"
+	  },
+	  "type": "urban_settlement",
+	  "region": 2,
+	  "area": 165,
+	  "tag": "country-belarus~province-gomelskaja_oblast~area-rogachyovskij_rajon~area-staroselskij_selsovet~locality-derevnja_terehovka",
+	  "bbox": [
+		30.068724,
+		53.191789,
+		30.071598,
+		53.19591
+	  ]
+	},
+	{
+	  "id": "552",
+	  "pid": "5",
+	  "labels": {
+		"ru": "Туров",
+		"ru_pred": "Турове",
+		"by": "Тураў",
+		"by_pred": "Тураве"
+	  },
+	  "type": "city",
+	  "region": 2,
+	  "area": 166,
+	  "tag": "country-belarus~province-gomelskaja_oblast~area-zhitkovichskij_rajon~locality-turov",
+	  "bbox": [
+		27.708688,
+		52.059956,
+		27.765578,
+		52.0746
+	  ]
+	},
+	{
+	  "id": "563",
+	  "pid": "5",
+	  "labels": {
+		"ru": "Уваровичи",
+		"ru_pred": "Уваровичах",
+		"by": "Уваравічы",
+		"by_pred": "Уваравічах"
+	  },
+	  "type": "urban_settlement",
+	  "region": 2,
+	  "area": 167,
+	  "tag": "country-belarus~province-gomelskaja_oblast~area-buda-koshelyovskij_rajon~area-uvarovichskij_selsovet~locality-gorodskoj_posyolok_uvarovichi",
+	  "bbox": [
+		30.713247,
+		52.585058,
+		30.74979,
+		52.606228
+	  ]
+	},
+	{
+	  "id": "549",
+	  "pid": "5",
+	  "labels": {
+		"ru": "Хойники",
+		"ru_pred": "Хойниках",
+		"by": "Хойнікі",
+		"by_pred": "Хойніках"
+	  },
+	  "type": "city",
+	  "region": 2,
+	  "area": 67,
+	  "tag": "country-belarus~province-gomelskaja_oblast~area-hojnikskij_rajon~locality-hojniki",
+	  "bbox": [
+		29.931012,
+		51.869167,
+		30.024302,
+		51.93631
+	  ]
+	},
+	{
+	  "id": "550",
+	  "pid": "5",
+	  "labels": {
+		"ru": "Чечерск",
+		"ru_pred": "Чечерске",
+		"by": "Чачэрск",
+		"by_pred": "Чачэрску"
+	  },
+	  "type": "city",
+	  "region": 2,
+	  "area": 68,
+	  "tag": "country-belarus~province-gomelskaja_oblast~area-checherskij_rajon~locality-chechersk",
+	  "bbox": [
+		30.885355,
+		52.898655,
+		30.958631,
+		52.942736
+	  ]
+	},
+	{
+	  "id": "647",
+	  "pid": "6",
+	  "labels": {
+		"ru": "Берёзовка",
+		"ru_pred": "Березовке",
+		"by": "Бярозаўка",
+		"by_pred": "Бярозаўцы"
+	  },
+	  "type": "city",
+	  "region": 3,
+	  "area": 69,
+	  "tag": "country-belarus~province-grodnenskaja_oblast~area-lidskij_rajon~locality-beryozovka",
+	  "bbox": [
+		25.462325,
+		53.707318,
+		25.530219,
+		53.742219
+	  ]
+	},
+	{
+	  "id": "649",
+	  "pid": "6",
+	  "labels": {
+		"ru": "Берестовица",
+		"ru_pred": "Берестовице",
+		"by": "Бераставіца",
+		"by_pred": "Бераставіцы"
+	  },
+	  "type": "working_village",
+	  "region": 3,
+	  "area": 133,
+	  "tag": "country-belarus~province-grodnenskaja_oblast~area-schuchinskij_rajon~area-ostrinskij_selsovet~locality-derevnja_berestovica",
+	  "bbox": [
+		24.372785,
+		53.840696,
+		24.392099,
+		53.853046
+	  ]
+	},
+	{
+	  "id": "630",
+	  "pid": "6",
+	  "labels": {
+		"ru": "Большая Берестовица",
+		"ru_pred": "Большой Берестовице",
+		"by": "Вялікая Бераставіца",
+		"by_pred": "Вялікай Бераставіцы"
+	  },
+	  "type": "urban_settlement",
+	  "region": 3,
+	  "area": 168,
+	  "tag": "country-belarus~province-grodnenskaja_oblast~area-berestovickij_rajon~locality-gorodskoj_posyolok_bolshaja_berestovica",
+	  "bbox": [
+		24.002517,
+		53.179772,
+		24.046427,
+		53.208597
+	  ]
+	},
+	{
+	  "id": "631",
+	  "pid": "6",
+	  "labels": {
+		"ru": "Волковыск",
+		"ru_pred": "Волковыске",
+		"by": "Ваўкавыск",
+		"by_pred": "Ваўкавыску"
+	  },
+	  "type": "city",
+	  "region": 3,
+	  "area": 40,
+	  "tag": "country-belarus~province-grodnenskaja_oblast~area-volkovysskij_rajon~locality-volkovysk",
+	  "bbox": [
+		24.386215,
+		53.110957,
+		24.504702,
+		53.179572
+	  ]
+	},
+	{
+	  "id": "632",
+	  "pid": "6",
+	  "labels": {
+		"ru": "Вороново",
+		"ru_pred": "Вороново",
+		"by": "Воранава",
+		"by_pred": "Воранава"
+	  },
+	  "type": "urban_settlement",
+	  "region": 3,
+	  "area": 134,
+	  "tag": "country-belarus~province-grodnenskaja_oblast~area-voronovskij_rajon~locality-gorodskoj_posyolok_voronovo",
+	  "bbox": [
+		25.291968,
+		54.134334,
+		25.332769,
+		54.168962
+	  ]
+	},
+	{
+	  "id": "634",
+	  "pid": "6",
+	  "labels": {
+		"ru": "Дятлово",
+		"ru_pred": "Дятлово",
+		"by": "Дзятлава",
+		"by_pred": "Дзятлаве"
+	  },
+	  "type": "city",
+	  "region": 3,
+	  "area": 70,
+	  "tag": "country-belarus~province-grodnenskaja_oblast~area-djatlovskij_rajon~locality-djatlovo",
+	  "bbox": [
+		25.383731,
+		53.447602,
+		25.430174,
+		53.480682
+	  ]
+	},
+	{
+	  "id": "635",
+	  "pid": "6",
+	  "labels": {
+		"ru": "Зельва",
+		"ru_pred": "Зельве",
+		"by": "Зэльва",
+		"by_pred": "Зэльве"
+	  },
+	  "type": "city",
+	  "region": 3,
+	  "area": 135,
+	  "tag": "country-belarus~province-grodnenskaja_oblast~area-zelvenskij_rajon~locality-gorodskoj_posyolok_zelva",
+	  "bbox": [
+		24.786091,
+		53.134956,
+		24.831869,
+		53.168437
+	  ]
+	},
+	{
+	  "id": "636",
+	  "pid": "6",
+	  "labels": {
+		"ru": "Ивье",
+		"ru_pred": "Ивье",
+		"by": "Іўе",
+		"by_pred": "Іўе"
+	  },
+	  "type": "city",
+	  "region": 3,
+	  "area": 71,
+	  "tag": "country-belarus~province-grodnenskaja_oblast~area-ivevskij_rajon~locality-ive",
+	  "bbox": [
+		25.734828,
+		53.914605,
+		25.807358,
+		53.949678
+	  ]
+	},
+	{
+	  "id": "637",
+	  "pid": "6",
+	  "labels": {
+		"ru": "Кореличи",
+		"ru_pred": "Кореличах",
+		"by": "Карэлічы",
+		"by_pred": "Карэлічах"
+	  },
+	  "type": "urban_settlement",
+	  "region": 3,
+	  "area": 136,
+	  "tag": "country-belarus~province-grodnenskaja_oblast~area-korelichskij_rajon~locality-gorodskoj_posyolok_korelichi",
+	  "bbox": [
+		26.11893,
+		53.55179,
+		26.160271,
+		53.581859
+	  ]
+	},
+	{
+	  "id": "651",
+	  "pid": "6",
+	  "labels": {
+		"ru": "Красносельский",
+		"ru_pred": "Красносельском",
+		"by": "Краснасельскі",
+		"by_pred": "Краснасельскім"
+	  },
+	  "type": "urban_settlement",
+	  "region": 3,
+	  "area": 169,
+	  "tag": "country-belarus~province-grodnenskaja_oblast~area-volkovysskij_rajon~area-krasnoselskij_selsovet~locality-gorodskoj_posyolok_krasnoselskij",
+	  "bbox": [
+		24.399097,
+		53.251617,
+		24.453274,
+		53.275063
+	  ]
+	},
+	{
+	  "id": "638",
+	  "pid": "6",
+	  "labels": {
+		"ru": "Лида",
+		"ru_pred": "Лиде",
+		"by": "Ліда",
+		"by_pred": "Лідзе"
+	  },
+	  "type": "city",
+	  "region": 3,
+	  "area": 10,
+	  "tag": "country-belarus~province-grodnenskaja_oblast~area-lidskij_rajon~locality-lida",
+	  "bbox": [
+		25.222888,
+		53.856509,
+		25.353098,
+		53.950806
+	  ]
+	},
+	{
+	  "id": "653",
+	  "pid": "6",
+	  "labels": {
+		"ru": "Мир",
+		"ru_pred": "Мире",
+		"by": "Мір",
+		"by_pred": "Миры"
+	  },
+	  "type": "urban_settlement",
+	  "region": 3,
+	  "area": 170,
+	  "tag": "country-belarus~province-grodnenskaja_oblast~area-korelichskij_rajon~area-mirskij_selsovet~locality-gorodskoj_posyolok_mir",
+	  "bbox": [
+		26.44368,
+		53.441337,
+		26.492683,
+		53.465081
+	  ]
+	},
+	{
+	  "id": "639",
+	  "pid": "6",
+	  "labels": {
+		"ru": "Мосты",
+		"ru_pred": "Мостах",
+		"by": "Масты",
+		"by_pred": "Мастах"
+	  },
+	  "type": "city",
+	  "region": 3,
+	  "area": 72,
+	  "tag": "country-belarus~province-grodnenskaja_oblast~area-mostovskij_rajon~locality-mosty",
+	  "bbox": [
+		24.501558,
+		53.385562,
+		24.59183,
+		53.440635
+	  ]
+	},
+	{
+	  "id": "640",
+	  "pid": "6",
+	  "labels": {
+		"ru": "Новогрудок",
+		"ru_pred": "Новогрудке",
+		"by": "Навагрудак",
+		"by_pred": "Наваградку"
+	  },
+	  "type": "city",
+	  "region": 3,
+	  "area": 73,
+	  "tag": "country-belarus~province-grodnenskaja_oblast~area-novogrudskij_rajon~locality-novogrudok",
+	  "bbox": [
+		25.782161,
+		53.572241,
+		25.858724,
+		53.615284
+	  ]
+	},
+	{
+	  "id": "641",
+	  "pid": "6",
+	  "labels": {
+		"ru": "Островец",
+		"ru_pred": "Островце",
+		"by": "Астравец",
+		"by_pred": "Астраўцы"
+	  },
+	  "type": "city",
+	  "region": 3,
+	  "area": 74,
+	  "tag": "country-belarus~province-grodnenskaja_oblast~area-ostroveckij_rajon~locality-ostrovec",
+	  "bbox": [
+		25.918696,
+		54.569732,
+		26.008806,
+		54.63758
+	  ]
+	},
+	{
+	  "id": "642",
+	  "pid": "6",
+	  "labels": {
+		"ru": "Ошмяны",
+		"ru_pred": "Ошмянах",
+		"by": "Ашмяны",
+		"by_pred": "Ашмянах"
+	  },
+	  "type": "city",
+	  "region": 3,
+	  "area": 75,
+	  "tag": "country-belarus~province-grodnenskaja_oblast~area-oshmjanskij_rajon~locality-oshmjany",
+	  "bbox": [
+		25.904637,
+		54.408765,
+		25.984731,
+		54.439408
+	  ]
+	},
+	{
+	  "id": "657",
+	  "pid": "6",
+	  "labels": {
+		"ru": "Радунь",
+		"ru_pred": "Радуне",
+		"by": "Радунь",
+		"by_pred": "Радуні"
+	  },
+	  "type": "urban_settlement",
+	  "region": 3,
+	  "area": 171,
+	  "tag": "country-belarus~province-grodnenskaja_oblast~area-korelichskij_rajon~area-zhuhovichskij_selsovet~locality-derevnja_radun",
+	  "bbox": [
+		26.35419,
+		53.443928,
+		26.370144,
+		53.464813
+	  ]
+	},
+	{
+	  "id": "658",
+	  "pid": "6",
+	  "labels": {
+		"ru": "Россь",
+		"ru_pred": "Россе",
+		"by": "Рось",
+		"by_pred": "Росі"
+	  },
+	  "type": "urban_settlement",
+	  "region": 3,
+	  "area": 172,
+	  "tag": "country-belarus~province-grodnenskaja_oblast~area-volkovysskij_rajon~area-rosskij_selsovet~locality-gorodskoj_posyolok_ross",
+	  "bbox": [
+		24.382541,
+		53.272139,
+		24.44147,
+		53.299636
+	  ]
+	},
+	{
+	  "id": "643",
+	  "pid": "6",
+	  "labels": {
+		"ru": "Свислочь",
+		"ru_pred": "Свислочи",
+		"by": "Свіслач",
+		"by_pred": "Свіслачы"
+	  },
+	  "type": "city",
+	  "region": 3,
+	  "area": 76,
+	  "tag": "country-belarus~province-grodnenskaja_oblast~area-svislochskij_rajon~locality-svisloch",
+	  "bbox": [
+		24.077185,
+		53.022981,
+		24.123628,
+		53.047489
+	  ]
+	},
+	{
+	  "id": "648",
+	  "pid": "6",
+	  "labels": {
+		"ru": "Скидель",
+		"ru_pred": "Скиделе",
+		"by": "Скідзель",
+		"by_pred": "Скідзелі"
+	  },
+	  "type": "city",
+	  "region": 3,
+	  "area": 77,
+	  "tag": "country-belarus~province-grodnenskaja_oblast~area-grodnenskij_rajon~locality-skidel",
+	  "bbox": [
+		24.188091,
+		53.552865,
+		24.278138,
+		53.605743
+	  ]
+	},
+	{
+	  "id": "644",
+	  "pid": "6",
+	  "labels": {
+		"ru": "Слоним",
+		"ru_pred": "Слониме",
+		"by": "Слонім",
+		"by_pred": "Слоніме"
+	  },
+	  "type": "city",
+	  "region": 3,
+	  "area": 11,
+	  "tag": "country-belarus~province-grodnenskaja_oblast~area-slonimskij_rajon~locality-slonim",
+	  "bbox": [
+		25.25988,
+		53.047765,
+		25.40971,
+		53.140763
+	  ]
+	},
+	{
+	  "id": "645",
+	  "pid": "6",
+	  "labels": {
+		"ru": "Сморгонь",
+		"ru_pred": "Сморгони",
+		"by": "Смаргонь",
+		"by_pred": "Смаргоні"
+	  },
+	  "type": "city",
+	  "region": 3,
+	  "area": 41,
+	  "tag": "country-belarus~province-grodnenskaja_oblast~area-smorgonskij_rajon~locality-smorgon",
+	  "bbox": [
+		26.350929,
+		54.456417,
+		26.442144,
+		54.544498
+	  ]
+	},
+	{
+	  "id": "646",
+	  "pid": "6",
+	  "labels": {
+		"ru": "Щучин",
+		"ru_pred": "Щучине",
+		"by": "Шчучын",
+		"by_pred": "Шчучыне"
+	  },
+	  "type": "city",
+	  "region": 3,
+	  "area": 78,
+	  "tag": "country-belarus~province-grodnenskaja_oblast~area-schuchinskij_rajon~locality-schuchin",
+	  "bbox": [
+		24.710677,
+		53.579005,
+		24.782075,
+		53.632864
+	  ]
+	},
+	{
+	  "id": "730",
+	  "pid": "7",
+	  "labels": {
+		"ru": "Белыничи",
+		"ru_pred": "Белыничах",
+		"by": "Бялынічы",
+		"by_pred": "Бялынічах"
+	  },
+	  "type": "city",
+	  "region": 4,
+	  "area": 137,
+	  "tag": "country-belarus~province-mogilyovskaja_oblast~area-belynichskij_rajon~locality-belynichi",
+	  "bbox": [
+		29.674974,
+		53.967404,
+		29.764383,
+		54.019865
+	  ]
+	},
+	{
+	  "id": "731",
+	  "pid": "7",
+	  "labels": {
+		"ru": "Бобруйск",
+		"ru_pred": "Бобруйске",
+		"by": "Бабруйск",
+		"by_pred": "Бабруйску"
+	  },
+	  "type": "city",
+	  "region": 4,
+	  "area": 12,
+	  "tag": "country-belarus~province-mogilyovskaja_oblast~locality-bobrujsk",
+	  "bbox": [
+		29.136506,
+		53.070214,
+		29.322044,
+		53.218255
+	  ]
+	},
+	{
+	  "id": "732",
+	  "pid": "7",
+	  "labels": {
+		"ru": "Быхов",
+		"ru_pred": "Быхове",
+		"by": "Быхаў",
+		"by_pred": "Быхаве"
+	  },
+	  "type": "city",
+	  "region": 4,
+	  "area": 79,
+	  "tag": "country-belarus~province-mogilyovskaja_oblast~area-byhovskij_rajon~locality-byhov",
+	  "bbox": [
+		30.176575,
+		53.481695,
+		30.270782,
+		53.543481
+	  ]
+	},
+	{
+	  "id": "733",
+	  "pid": "7",
+	  "labels": {
+		"ru": "Глуск",
+		"ru_pred": "Глуске",
+		"by": "Глуск",
+		"by_pred": "Глуску"
+	  },
+	  "type": "city",
+	  "region": 4,
+	  "area": 80,
+	  "tag": "country-belarus~province-mogilyovskaja_oblast~area-glusskij_rajon~locality-gorodskoj_posyolok_glusk",
+	  "bbox": [
+		28.65942,
+		52.875176,
+		28.708863,
+		52.91914
+	  ]
+	},
+	{
+	  "id": "734",
+	  "pid": "7",
+	  "labels": {
+		"ru": "Горки",
+		"ru_pred": "Горках",
+		"by": "Горкі",
+		"by_pred": "Горках"
+	  },
+	  "type": "city",
+	  "region": 4,
+	  "area": 42,
+	  "tag": "country-belarus~province-mogilyovskaja_oblast~area-goreckij_rajon~locality-gorki",
+	  "bbox": [
+		30.946405,
+		54.238226,
+		31.028681,
+		54.318152
+	  ]
+	},
+	{
+	  "id": "735",
+	  "pid": "7",
+	  "labels": {
+		"ru": "Дрибин",
+		"ru_pred": "Дрибине",
+		"by": "Дрыбін",
+		"by_pred": "Дрыбіне"
+	  },
+	  "type": "city",
+	  "region": 4,
+	  "area": 138,
+	  "tag": "country-belarus~province-mogilyovskaja_oblast~area-dribinskij_rajon~locality-gorodskoj_posyolok_dribin",
+	  "bbox": [
+		31.069393,
+		54.106197,
+		31.127415,
+		54.138248
+	  ]
+	},
+	{
+	  "id": "751",
+	  "pid": "7",
+	  "labels": {
+		"ru": "Елизово",
+		"ru_pred": "Елизово",
+		"by": "Ялізава",
+		"by_pred": "Ялізаве"
+	  },
+	  "type": "working_village",
+	  "region": 4,
+	  "area": 173,
+	  "tag": "country-belarus~province-mogilyovskaja_oblast~area-osipovichskij_rajon~area-elizovskij_selsovet~locality-rabochij_posyolok_elizovo",
+	  "bbox": [
+		28.987996,
+		53.383076,
+		29.023534,
+		53.41538
+	  ]
+	},
+	{
+	  "id": "736",
+	  "pid": "7",
+	  "labels": {
+		"ru": "Кировск",
+		"ru_pred": "Кировске",
+		"by": "Кіраўск",
+		"by_pred": "Кіраўску"
+	  },
+	  "type": "city",
+	  "region": 4,
+	  "area": 81,
+	  "tag": "country-belarus~province-mogilyovskaja_oblast~area-kirovskij_rajon~locality-kirovsk",
+	  "bbox": [
+		29.440657,
+		53.254645,
+		29.496506,
+		53.295283
+	  ]
+	},
+	{
+	  "id": "737",
+	  "pid": "7",
+	  "labels": {
+		"ru": "Климовичи",
+		"ru_pred": "Климовичах",
+		"by": "Клімавічы",
+		"by_pred": "Клімавічах"
+	  },
+	  "type": "city",
+	  "region": 4,
+	  "area": 82,
+	  "tag": "country-belarus~province-mogilyovskaja_oblast~area-klimovichskij_rajon~locality-klimovichi",
+	  "bbox": [
+		31.905248,
+		53.577246,
+		31.994119,
+		53.633152
+	  ]
+	},
+	{
+	  "id": "738",
+	  "pid": "7",
+	  "labels": {
+		"ru": "Кличев",
+		"ru_pred": "Кличеве",
+		"by": "Клічаў",
+		"by_pred": "Клічаве"
+	  },
+	  "type": "city",
+	  "region": 4,
+	  "area": 83,
+	  "tag": "country-belarus~province-mogilyovskaja_oblast~area-klichevskij_rajon~locality-klichev",
+	  "bbox": [
+		29.306925,
+		53.475629,
+		29.371281,
+		53.51469
+	  ]
+	},
+	{
+	  "id": "742",
+	  "pid": "7",
+	  "labels": {
+		"ru": "Костюковичи",
+		"ru_pred": "Костюковичах",
+		"by": "Касцюковічы",
+		"by_pred": "Касцюковічах"
+	  },
+	  "type": "city",
+	  "region": 4,
+	  "area": 84,
+	  "tag": "country-belarus~province-mogilyovskaja_oblast~area-kostjukovichskij_rajon~locality-kostjukovichi",
+	  "bbox": [
+		32.003398,
+		53.322642,
+		32.079432,
+		53.405757
+	  ]
+	},
+	{
+	  "id": "739",
+	  "pid": "7",
+	  "labels": {
+		"ru": "Краснополье",
+		"ru_pred": "Краснополье",
+		"by": "Краснаполле",
+		"by_pred": "Краснаполлі"
+	  },
+	  "type": "city",
+	  "region": 4,
+	  "area": 139,
+	  "tag": "country-belarus~province-mogilyovskaja_oblast~area-krasnopolskij_rajon~locality-gorodskoj_posyolok_krasnopole",
+	  "bbox": [
+		31.369996,
+		53.317919,
+		31.423464,
+		53.366154
+	  ]
+	},
+	{
+	  "id": "740",
+	  "pid": "7",
+	  "labels": {
+		"ru": "Кричев",
+		"ru_pred": "Кричеве",
+		"by": "Крычаў",
+		"by_pred": "Крычаве"
+	  },
+	  "type": "city",
+	  "region": 4,
+	  "area": 43,
+	  "tag": "country-belarus~province-mogilyovskaja_oblast~area-krichevskij_rajon~locality-krichev",
+	  "bbox": [
+		31.679232,
+		53.659568,
+		31.744486,
+		53.760433
+	  ]
+	},
+	{
+	  "id": "741",
+	  "pid": "7",
+	  "labels": {
+		"ru": "Круглое",
+		"ru_pred": "Круглом",
+		"by": "Круглае",
+		"by_pred": "Круглым"
+	  },
+	  "type": "city",
+	  "region": 4,
+	  "area": 140,
+	  "tag": "country-belarus~province-mogilyovskaja_oblast~area-krugljanskij_rajon~locality-krugloe",
+	  "bbox": [
+		29.760619,
+		54.22588,
+		29.819261,
+		54.273708
+	  ]
+	},
+	{
+	  "id": "744",
+	  "pid": "7",
+	  "labels": {
+		"ru": "Мстиславль",
+		"ru_pred": "Мстиславле",
+		"by": "Мсціслаў",
+		"by_pred": "Мсціслаўі"
+	  },
+	  "type": "city",
+	  "region": 4,
+	  "area": 85,
+	  "tag": "country-belarus~province-mogilyovskaja_oblast~area-mstislavskij_rajon~locality-mstislavl",
+	  "bbox": [
+		31.678064,
+		53.994477,
+		31.768147,
+		54.047306
+	  ]
+	},
+	{
+	  "id": "745",
+	  "pid": "7",
+	  "labels": {
+		"ru": "Осиповичи",
+		"ru_pred": "Осиповичах",
+		"by": "Асіповічы",
+		"by_pred": "Асіповічах"
+	  },
+	  "type": "city",
+	  "region": 4,
+	  "area": 14,
+	  "tag": "country-belarus~province-mogilyovskaja_oblast~area-osipovichskij_rajon~locality-osipovichi",
+	  "bbox": [
+		28.578086,
+		53.281707,
+		28.68627,
+		53.333306
+	  ]
+	},
+	{
+	  "id": "746",
+	  "pid": "7",
+	  "labels": {
+		"ru": "Славгород",
+		"ru_pred": "Славгороде",
+		"by": "Слаўгарад",
+		"by_pred": "Слаўгарадзе"
+	  },
+	  "type": "city",
+	  "region": 4,
+	  "area": 86,
+	  "tag": "country-belarus~province-mogilyovskaja_oblast~area-slavgorodskij_rajon~locality-slavgorod",
+	  "bbox": [
+		30.974028,
+		53.421445,
+		31.024881,
+		53.4641
+	  ]
+	},
+	{
+	  "id": "747",
+	  "pid": "7",
+	  "labels": {
+		"ru": "Хотимск",
+		"ru_pred": "Хотимске",
+		"by": "Хоцімск",
+		"by_pred": "Хоцісмку"
+	  },
+	  "type": "city",
+	  "region": 4,
+	  "area": 141,
+	  "tag": "country-belarus~province-mogilyovskaja_oblast~area-hotimskij_rajon~locality-gorodskoj_posyolok_hotimsk",
+	  "bbox": [
+		32.550724,
+		53.393038,
+		32.616121,
+		53.425142
+	  ]
+	},
+	{
+	  "id": "748",
+	  "pid": "7",
+	  "labels": {
+		"ru": "Чаусы",
+		"ru_pred": "Чаусах",
+		"by": "Чавусы",
+		"by_pred": "Чавусах"
+	  },
+	  "type": "city",
+	  "region": 4,
+	  "area": 87,
+	  "tag": "country-belarus~province-mogilyovskaja_oblast~area-chausskij_rajon~locality-chausy",
+	  "bbox": [
+		30.908927,
+		53.775829,
+		31.008487,
+		53.843124
+	  ]
+	},
+	{
+	  "id": "749",
+	  "pid": "7",
+	  "labels": {
+		"ru": "Чериков",
+		"ru_pred": "Черикове",
+		"by": "Чэрыкаў",
+		"by_pred": "Чэрыкаве"
+	  },
+	  "type": "city",
+	  "region": 4,
+	  "area": 88,
+	  "tag": "country-belarus~province-mogilyovskaja_oblast~area-cherikovskij_rajon~locality-cherikov",
+	  "bbox": [
+		31.351967,
+		53.548895,
+		31.422116,
+		53.593934
+	  ]
+	},
+	{
+	  "id": "750",
+	  "pid": "7",
+	  "labels": {
+		"ru": "Шклов",
+		"ru_pred": "Шклове",
+		"by": "Шклоў",
+		"by_pred": "Шлове"
+	  },
+	  "type": "city",
+	  "region": 4,
+	  "area": 89,
+	  "tag": "country-belarus~province-mogilyovskaja_oblast~area-shklovskij_rajon~locality-shklov",
+	  "bbox": [
+		30.263191,
+		54.170275,
+		30.339314,
+		54.243867
+	  ]
+	}
+  ]

@@ -1,0 +1,2 @@
+"""Kufar parser bot package."""
+
