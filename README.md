@@ -34,33 +34,6 @@
 
 Пример: если в URL есть `?cat=17010`, то ID категории = `17010`.
 
-## Структура
-
-```text
-src/
-  app.py                    # запуск и wiring приложения
-  config.py                 # env-конфиг
-  app_context.py            # runtime state (сессии, категории, cache)
-  models/
-    search_config.py        # регион/район
-    search_target.py        # категория мониторинга
-  services/
-    kufar_parser.py         # HTTP + парсинг объявлений
-    location_manager.py     # загрузка locations.json
-    monitoring.py           # фоновый мультипарсинг
-    target_storage.py       # сохранение/загрузка категорий
-  handlers/
-    watchlist.py            # /menu и управление категориями
-    location.py             # выбор локации
-    ads.py                  # /all и навигация по объявлениям
-  keyboards/
-    watchlist.py
-    ads.py
-  states/
-    location.py
-    target.py
-```
-
 ## Быстрый старт (PowerShell)
 
 1. Создай venv и активируй:
@@ -70,19 +43,19 @@ python -m venv .venv
 .venv\Scripts\Activate.ps1
 ```
 
-2. Установи зависимости:
+1. Установи зависимости:
 
 ```powershell
 pip install -r requirements.txt
 ```
 
-3. Создай `.env`:
+1. Создай `.env`:
 
 ```powershell
 Copy-Item .env.example .env
 ```
 
-4. Заполни `.env` и запусти:
+1. Заполни `.env` и запусти:
 
 ```powershell
 python main.py
@@ -97,8 +70,3 @@ python main.py
 - `TARGETS_FILE` - путь к JSON с категориями (по умолчанию `data/targets.json`).
 - `KUFAR_AUTH_TOKEN` - опциональный токен авторизации Kufar.
 - `KUFAR_USER_AGENT` - User-Agent для запросов.
-
-## Замечания
-
-- На самом первом запуске (когда `TARGETS_FILE` еще не создан) автоматически добавляется `iPhone (по умолчанию)`.
-- Рекомендуется держать `BOT_TOKEN` только в `.env`, не в коде.
